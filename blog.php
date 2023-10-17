@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>HELPZ - Free Charity Website Template</title>
+        <title>LIA - Free Charity Website Template</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -59,29 +59,29 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">Helpz</a>
+                <a href="index.php" class="navbar-brand">LIA</a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="causes.html" class="nav-item nav-link">Causes</a>
-                        <a href="event.html" class="nav-item nav-link active">Events</a>
-                        <a href="blog.html" class="nav-item nav-link">Blog</a>
+                        <a href="index.php" class="nav-item nav-link">Home</a>
+                        <a href="about.php" class="nav-item nav-link">About</a>
+                        <a href="causes.php" class="nav-item nav-link">Causes</a>
+                        <a href="event.php" class="nav-item nav-link">Events</a>
+                        <a href="blog.php" class="nav-item nav-link active">Blog</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu">
-                                <a href="single.html" class="dropdown-item">Detail Page</a>
-                                <a href="service.html" class="dropdown-item">What We Do</a>
-                                <a href="team.html" class="dropdown-item">Meet The Team</a>
-                                <a href="donate.html" class="dropdown-item">Donate Now</a>
-                                <a href="volunteer.html" class="dropdown-item">Become A Volunteer</a>
+                                <a href="single.php" class="dropdown-item">Detail Page</a>
+                                <a href="service.php" class="dropdown-item">What We Do</a>
+                                <a href="team.php" class="dropdown-item">Meet The Team</a>
+                                <a href="donate.php" class="dropdown-item">Donate Now</a>
+                                <a href="volunteer.php" class="dropdown-item">Become A Volunteer</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="contact.php" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </div>
@@ -94,11 +94,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Upcoming Events</h2>
+                        <h2>From Blog</h2>
                     </div>
                     <div class="col-12">
                         <a href="">Home</a>
-                        <a href="">Events</a>
+                        <a href="">Blog</a>
                     </div>
                 </div>
             </div>
@@ -106,94 +106,131 @@
         <!-- Page Header End -->
         
         
-        <!-- Event Start -->
-        <div class="event">
+        <!-- Blog Start -->
+        <div class="blog">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Upcoming Events</p>
-                    <h2>Be ready for our upcoming charity events</h2>
+                    <p>Our Blog</p>
+                    <h2>Latest news & articles directly from our blog</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="event-item">
-                            <img src="img/event3.jpg" alt="Image">
-                            <div class="event-content">
-                                <div class="event-meta">
-                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
-                                    <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                    <p><i class="fa fa-map-marker-alt"></i>New York</p>
-                                </div>
-                                <div class="event-text">
-                                    <h3>Lorem ipsum dolor sit</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                    </p>
-                                    <a class="btn btn-custom" href="">Join Now</a>
-                                </div>
+                    <div class="col-lg-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog4.jpg" alt="Image">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                </p>
+                            </div>
+                            <div class="blog-meta">
+                                <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="event-item">
-                            <img src="img/event4.jpg" alt="Image">
-                            <div class="event-content">
-                                <div class="event-meta">
-                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
-                                    <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                    <p><i class="fa fa-map-marker-alt"></i>New York</p>
-                                </div>
-                                <div class="event-text">
-                                    <h3>Lorem ipsum dolor sit</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                    </p>
-                                    <a class="btn btn-custom" href="">Join Now</a>
-                                </div>
+                    <div class="col-lg-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog5.jpg" alt="Image">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                </p>
+                            </div>
+                            <div class="blog-meta">
+                                <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="event-item">
-                            <img src="img/event5.jpg" alt="Image">
-                            <div class="event-content">
-                                <div class="event-meta">
-                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
-                                    <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                    <p><i class="fa fa-map-marker-alt"></i>New York</p>
-                                </div>
-                                <div class="event-text">
-                                    <h3>Lorem ipsum dolor sit</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                    </p>
-                                    <a class="btn btn-custom" href="">Join Now</a>
-                                </div>
+                    <div class="col-lg-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog6.jpg" alt="Image">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                </p>
+                            </div>
+                            <div class="blog-meta">
+                                <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="event-item">
-                            <img src="img/event6.jpg" alt="Image">
-                            <div class="event-content">
-                                <div class="event-meta">
-                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
-                                    <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                    <p><i class="fa fa-map-marker-alt"></i>New York</p>
-                                </div>
-                                <div class="event-text">
-                                    <h3>Lorem ipsum dolor sit</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                    </p>
-                                    <a class="btn btn-custom" href="">Join Now</a>
-                                </div>
+                    <div class="col-lg-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog7.jpg" alt="Image">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                </p>
+                            </div>
+                            <div class="blog-meta">
+                                <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog8.jpg" alt="Image">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                </p>
+                            </div>
+                            <div class="blog-meta">
+                                <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog9.jpg" alt="Image">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                </p>
+                            </div>
+                            <div class="blog-meta">
+                                <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul> 
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Event End -->
+        <!-- Blog End -->
 
 
         <!-- Footer Start -->
@@ -253,7 +290,7 @@
                         <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
                     </div>
                     <div class="col-md-6">
-                        <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                        <p>Designed By <a href="https://htmlcodex.com">COM Agency</a></p>
                     </div>
                 </div>
             </div>

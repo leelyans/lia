@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>HELPZ - Free Charity Website Template</title>
+        <title>LIA - Free Charity Website Template</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -59,29 +59,29 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">Helpz</a>
+                <a href="index.php" class="navbar-brand">LIA</a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link active">About</a>
-                        <a href="causes.html" class="nav-item nav-link">Causes</a>
-                        <a href="event.html" class="nav-item nav-link">Events</a>
-                        <a href="blog.html" class="nav-item nav-link">Blog</a>
+                        <a href="index.php" class="nav-item nav-link">Home</a>
+                        <a href="about.php" class="nav-item nav-link">About</a>
+                        <a href="causes.php" class="nav-item nav-link">Causes</a>
+                        <a href="event.php" class="nav-item nav-link">Events</a>
+                        <a href="blog.php" class="nav-item nav-link">Blog</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu">
-                                <a href="single.html" class="dropdown-item">Detail Page</a>
-                                <a href="service.html" class="dropdown-item">What We Do</a>
-                                <a href="team.html" class="dropdown-item">Meet The Team</a>
-                                <a href="donate.html" class="dropdown-item">Donate Now</a>
-                                <a href="volunteer.html" class="dropdown-item">Become A Volunteer</a>
+                                <a href="single.php" class="dropdown-item">Detail Page</a>
+                                <a href="service.php" class="dropdown-item">What We Do</a>
+                                <a href="team.php" class="dropdown-item">Meet The Team</a>
+                                <a href="donate.php" class="dropdown-item">Donate Now</a>
+                                <a href="volunteer.php" class="dropdown-item">Become A Volunteer</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="contact.php" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </div>
@@ -94,108 +94,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>About Us</h2>
+                        <h2>Team Member</h2>
                     </div>
                     <div class="col-12">
                         <a href="">Home</a>
-                        <a href="">About Us</a>
+                        <a href="">Team</a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Page Header End -->
         
-
-        <!-- About Start -->
-        <div class="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="about-img" data-parallax="scroll" data-image-src="img/about1.jpg"></div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="section-header">
-                            <p>Learn About Us</p>
-                            <h2>Worldwide non-profit charity organization</h2>
-                        </div>
-                        <div class="about-tab">
-                            <ul class="nav nav-pills nav-justified">
-                                <li class="nav-item">
-                                    <a class="nav-link active" data-toggle="pill" href="#tab-content-1">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-toggle="pill" href="#tab-content-2">Mission</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-toggle="pill" href="#tab-content-3">Vision</a>
-                                </li>
-                            </ul>
-
-                            <div class="tab-content">
-                                <div id="tab-content-1" class="container tab-pane active">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae pellentesque turpis. Donec in hendrerit dui, vel blandit massa. Ut vestibulum suscipit cursus. Cras quis porta nulla, ut placerat risus. Aliquam nec magna eget velit luctus dictum. Phasellus et felis sed purus tristique dignissim. Morbi sit amet leo at purus accumsan pellentesque. Vivamus fermentum nisi vel dapibus blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                </div>
-                                <div id="tab-content-2" class="container tab-pane fade">
-                                    Sed tincidunt, magna ut vehicula volutpat, turpis diam condimentum justo, posuere congue turpis massa in mi. Proin ornare at massa at fermentum. Nunc aliquet sed nisi iaculis ornare. Nam semper tortor eget est egestas, eu sagittis nunc sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent bibendum sapien sed purus molestie malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                </div>
-                                <div id="tab-content-3" class="container tab-pane fade">
-                                    Aliquam dolor odio, mollis sed feugiat sit amet, feugiat ut sapien. Nunc eu dignissim lorem. Suspendisse at hendrerit enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed condimentum semper turpis vel facilisis. Nunc vel faucibus orci. Mauris ut mauris rhoncus, efficitur nisi at, venenatis quam. Praesent egestas pretium enim sit amet finibus. Curabitur at erat molestie, tincidunt lorem eget, consequat ligula.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
         
-        
-        <!-- Facts Start -->
-        <div class="facts" data-parallax="scroll" data-image-src="img/facts.jpg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                            <i class="flaticon-home"></i>
-                            <div class="facts-text">
-                                <h3 class="facts-plus" data-toggle="counter-up">150</h3>
-                                <p>Countries</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                            <i class="flaticon-charity"></i>
-                            <div class="facts-text">
-                                <h3 class="facts-plus" data-toggle="counter-up">400</h3>
-                                <p>Volunteers</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                            <i class="flaticon-kindness"></i>
-                            <div class="facts-text">
-                                <h3 class="facts-dollar" data-toggle="counter-up">10000</h3>
-                                <p>Our Goal</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                            <i class="flaticon-donation"></i>
-                            <div class="facts-text">
-                                <h3 class="facts-dollar" data-toggle="counter-up">5000</h3>
-                                <p>Raised</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Facts End -->
-
-
         <!-- Team Start -->
         <div class="team">
             <div class="container">
@@ -276,76 +186,6 @@
             </div>
         </div>
         <!-- Team End -->
-        
-        
-        <!-- Testimonial Start -->
-        <div class="testimonial">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Testimonial</p>
-                    <h2>What people are talking about our charity activities</h2>
-                </div>
-                <div class="owl-carousel testimonials-carousel">
-                    <div class="testimonial-item">
-                        <div class="testimonial-profile">
-                            <img src="img/testimonial-1.jpg" alt="Image">
-                            <div class="testimonial-name">
-                                <h3>Person Name</h3>
-                                <p>Profession</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor, auctor id gravid vivera quis
-                            </p>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-profile">
-                            <img src="img/testimonial-2.jpg" alt="Image">
-                            <div class="testimonial-name">
-                                <h3>Person Name</h3>
-                                <p>Profession</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor, auctor id gravid vivera quis
-                            </p>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-profile">
-                            <img src="img/testimonial-3.jpg" alt="Image">
-                            <div class="testimonial-name">
-                                <h3>Person Name</h3>
-                                <p>Profession</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor, auctor id gravid vivera quis
-                            </p>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-profile">
-                            <img src="img/testimonial-4.jpg" alt="Image">
-                            <div class="testimonial-name">
-                                <h3>Person Name</h3>
-                                <p>Profession</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor, auctor id gravid vivera quis
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
 
 
         <!-- Footer Start -->
@@ -405,7 +245,7 @@
                         <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
                     </div>
                     <div class="col-md-6">
-                        <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                        <p>Designed By <a href="https://htmlcodex.com">COM Agency</a></p>
                     </div>
                 </div>
             </div>

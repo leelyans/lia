@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>HELPZ - Free Charity Website Template</title>
+        <title>LIA - Free Charity Website Template</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -59,29 +59,29 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">Helpz</a>
+                <a href="index.php" class="navbar-brand">LIA</a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="causes.html" class="nav-item nav-link">Causes</a>
-                        <a href="event.html" class="nav-item nav-link">Events</a>
-                        <a href="blog.html" class="nav-item nav-link">Blog</a>
+                        <a href="index.php" class="nav-item nav-link active">Home</a>
+                        <a href="about.php" class="nav-item nav-link">About</a>
+                        <a href="causes.php" class="nav-item nav-link">Causes</a>
+                        <a href="event.php" class="nav-item nav-link">Events</a>
+                        <a href="blog.php" class="nav-item nav-link">Blog</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu">
-                                <a href="single.html" class="dropdown-item">Detail Page</a>
-                                <a href="service.html" class="dropdown-item">What We Do</a>
-                                <a href="team.html" class="dropdown-item">Meet The Team</a>
-                                <a href="donate.html" class="dropdown-item">Donate Now</a>
-                                <a href="volunteer.html" class="dropdown-item">Become A Volunteer</a>
+                                <a href="single.php" class="dropdown-item">Detail Page</a>
+                                <a href="service.php" class="dropdown-item">What We Do</a>
+                                <a href="team.php" class="dropdown-item">Meet The Team</a>
+                                <a href="donate.php" class="dropdown-item">Donate Now</a>
+                                <a href="volunteer.php" class="dropdown-item">Become A Volunteer</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="contact.php" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </div>
@@ -167,7 +167,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <div class="about-img" data-parallax="scroll" data-image-src="img/about.jpg"></div>
+                        <div class="about-img" data-parallax="scroll" data-image-src="img/about2.jpg"></div>
                     </div>
                     <div class="col-lg-6">
                         <div class="section-header">
@@ -287,7 +287,7 @@
         
         
         <!-- Facts Start -->
-        <div class="facts" data-parallax="scroll" data-image-src="img/facts.jpg">
+        <div class="facts" data-parallax="scroll" data-image-src="img/event1.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
@@ -554,11 +554,11 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-1.jpg" alt="Team Image">
+                                <img src="img/team0.png" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Donald John</h2>
-                                <p>Founder & CEO</p>
+                                <h2>ABCD XYZ</h2>
+                                <p>Founder </p>
                                 <div class="team-social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -571,11 +571,11 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-2.jpg" alt="Team Image">
+                                <img src="img/team0.png" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Adam Phillips</h2>
-                                <p>Chef Executive</p>
+                                <h2>ABCD XYZ</h2>
+                                <p>Executive</p>
                                 <div class="team-social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -588,11 +588,11 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-3.jpg" alt="Team Image">
+                                <img src="img/team0.png" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Thomas Olsen</h2>
-                                <p>Chef Advisor</p>
+                                <h2>ABCD XYZ</h2>
+                                <p>Advisor</p>
                                 <div class="team-social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -605,10 +605,10 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-4.jpg" alt="Team Image">
+                                <img src="img/team0.png" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>James Alien</h2>
+                                <h2>ABCD XYZ</h2>
                                 <p>Advisor</p>
                                 <div class="team-social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
@@ -676,9 +676,9 @@
                 <div class="owl-carousel testimonials-carousel">
                     <div class="testimonial-item">
                         <div class="testimonial-profile">
-                            <img src="img/testimonial-1.jpg" alt="Image">
+                            <img src="img/team0.png" alt="Image">
                             <div class="testimonial-name">
-                                <h3>Person Name</h3>
+                                <h3>Name</h3>
                                 <p>Profession</p>
                             </div>
                         </div>
@@ -690,9 +690,9 @@
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-profile">
-                            <img src="img/testimonial-2.jpg" alt="Image">
+                            <img src="img/team0.png" alt="Image">
                             <div class="testimonial-name">
-                                <h3>Person Name</h3>
+                                <h3>Name</h3>
                                 <p>Profession</p>
                             </div>
                         </div>
@@ -704,9 +704,9 @@
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-profile">
-                            <img src="img/testimonial-3.jpg" alt="Image">
+                            <img src="img/team0.png" alt="Image">
                             <div class="testimonial-name">
-                                <h3>Person Name</h3>
+                                <h3>Name</h3>
                                 <p>Profession</p>
                             </div>
                         </div>
@@ -718,9 +718,9 @@
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-profile">
-                            <img src="img/testimonial-4.jpg" alt="Image">
+                            <img src="img/team0.png" alt="Image">
                             <div class="testimonial-name">
-                                <h3>Person Name</h3>
+                                <h3>Name</h3>
                                 <p>Profession</p>
                             </div>
                         </div>
@@ -897,7 +897,7 @@
                         <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
                     </div>
                     <div class="col-md-6">
-                        <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                        <p>Designed By <a href="https://htmlcodex.com">COM Agency</a></p>
                     </div>
                 </div>
             </div>

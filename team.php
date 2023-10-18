@@ -111,17 +111,17 @@
             <div class="container">
                 <div class="section-header text-center">
                     <p>Meet Our Team</p>
-                    <h2>Awesome guys behind our charity activities</h2>
+                    <h2>Awesome Guys behind our Charity activities</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-1.jpg" alt="Team Image">
+                                <img src="img/team1.jfif" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Donald John</h2>
-                                <p>Founder & CEO</p>
+                                <h2>BAYITO Egide</h2>
+                                <p>Founder & Country Director</p>
                                 <div class="team-social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -134,11 +134,11 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-2.jpg" alt="Team Image">
+                                <img src="img/team2.jfif" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Adam Phillips</h2>
-                                <p>Chef Executive</p>
+                                <h2>RURAMIRA Tiana</h2>
+                                <p>Secretary</p>
                                 <div class="team-social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -151,11 +151,11 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-3.jpg" alt="Team Image">
+                                <img src="img/team3.jfif" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Thomas Olsen</h2>
-                                <p>Chef Advisor</p>
+                                <h2>MUGABO Patricia</h2>
+                                <p>Public Relations Director</p>
                                 <div class="team-social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -168,11 +168,45 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-4.jpg" alt="Team Image">
+                                <img src="img/team4.jfif" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>James Alien</h2>
-                                <p>Advisor</p>
+                                <h2>NTSINZI Ahmed</h2>
+                                <p>Internal Relations</p>
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team5.jfif" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>SUGIRA Patrick</h2>
+                                <p>Legal Advisor</p>
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team6.jfif" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>NGOGA Yves</h2>
+                                <p>Entertainment and Events Coordinator</p>
                                 <div class="team-social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -210,11 +244,11 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-link">
                             <h2>Popular Links</h2>
-                            <a href="">About Us</a>
-                            <a href="">Contact Us</a>
-                            <a href="">Popular Causes</a>
-                            <a href="">Upcoming Events</a>
-                            <a href="">Latest Blog</a>
+                            <a href="about.php">About Us</a>
+                            <a href="contact.php">Contact Us</a>
+                            <a href="causes.php">Popular Causes</a>
+                            <a href="event.php">Upcoming Events</a>
+                            <a href="blog.php">Latest Blog</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -242,10 +276,10 @@
             <div class="container copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
+                        <p>&copy; <a href="#">Love In Action</a>, All Right Reserved.</p>
                     </div>
                     <div class="col-md-6">
-                        <p>Designed By <a href="https://htmlcodex.com">COM Agency</a></p>
+                        <p>Designed By <a href="">COM Agency</a></p>
                     </div>
                 </div>
             </div>

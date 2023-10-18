@@ -443,7 +443,7 @@
         
         
         <!-- Donate Start -->
-        <div class="donate" data-parallax="scroll" data-image-src="img/donate.jpg">
+        <div class="donate" data-parallax="scroll" data-image-src="img/donate1.jpg">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-7">
@@ -542,91 +542,9 @@
         </div>
         <!-- Event End -->
 
-
-        <!-- Team Start -->
-        <div class="team">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Meet Our Team</p>
-                    <h2>Awesome guys behind our charity activities</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team0.png" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>ABCD XYZ</h2>
-                                <p>Founder </p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team0.png" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>ABCD XYZ</h2>
-                                <p>Executive</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team0.png" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>ABCD XYZ</h2>
-                                <p>Advisor</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team0.png" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>ABCD XYZ</h2>
-                                <p>Advisor</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
-        
         
         <!-- Volunteer Start -->
-        <div class="volunteer" data-parallax="scroll" data-image-src="img/volunteer.jpg">
+        <div class="volunteer" data-parallax="scroll" data-image-src="img/volunteer1.jpg">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-5">
@@ -775,71 +693,6 @@
         <!-- Contact End -->
 
 
-        <!-- Blog Start -->
-        <div class="blog">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Our Blog</p>
-                    <h2>Latest news & articles directly from our blog</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/blog1.jpg" alt="Image">
-                            </div>
-                            <div class="blog-text">
-                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
-                            </div>
-                            <div class="blog-meta">
-                                <p><i class="fa fa-user"></i><a href="">Admin</a></p>
-                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/blog2.jpg" alt="Image">
-                            </div>
-                            <div class="blog-text">
-                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
-                            </div>
-                            <div class="blog-meta">
-                                <p><i class="fa fa-user"></i><a href="">Admin</a></p>
-                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/blog3.jpg" alt="Image">
-                            </div>
-                            <div class="blog-text">
-                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
-                            </div>
-                            <div class="blog-meta">
-                                <p><i class="fa fa-user"></i><a href="">Admin</a></p>
-                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Blog End -->
-
-
         <!-- Footer Start -->
         <div class="footer">
             <div class="container">
@@ -862,11 +715,11 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-link">
                             <h2>Popular Links</h2>
-                            <a href="">About Us</a>
-                            <a href="">Contact Us</a>
-                            <a href="">Popular Causes</a>
-                            <a href="">Upcoming Events</a>
-                            <a href="">Latest Blog</a>
+                            <a href="about.php">About Us</a>
+                            <a href="contact.php">Contact Us</a>
+                            <a href="causes.php">Popular Causes</a>
+                            <a href="event.php">Upcoming Events</a>
+                            <a href="blog.php">Latest Blog</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -894,10 +747,10 @@
             <div class="container copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
+                        <p>&copy; <a href="#">Love In Action</a>, All Right Reserved.</p>
                     </div>
                     <div class="col-md-6">
-                        <p>Designed By <a href="https://htmlcodex.com">COM Agency</a></p>
+                        <p>Designed By <a href="">COM Agency</a></p>
                     </div>
                 </div>
             </div>

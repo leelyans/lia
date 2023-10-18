@@ -318,11 +318,11 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-link">
                             <h2>Popular Links</h2>
-                            <a href="">About Us</a>
-                            <a href="">Contact Us</a>
-                            <a href="">Popular Causes</a>
-                            <a href="">Upcoming Events</a>
-                            <a href="">Latest Blog</a>
+                            <a href="about.php">About Us</a>
+                            <a href="contact.php">Contact Us</a>
+                            <a href="causes.php">Popular Causes</a>
+                            <a href="event.php">Upcoming Events</a>
+                            <a href="blog.php">Latest Blog</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -350,10 +350,10 @@
             <div class="container copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
+                        <p>&copy; <a href="#">Love In Action</a>, All Right Reserved.</p>
                     </div>
                     <div class="col-md-6">
-                        <p>Designed By <a href="https://htmlcodex.com">COM Agency</a></p>
+                        <p>Designed By <a href="">COM Agency</a></p>
                     </div>
                 </div>
             </div>

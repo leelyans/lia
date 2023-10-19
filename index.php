@@ -72,7 +72,6 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Invloved</a>
                             <div class="dropdown-menu">
-                                <a href="team.php" class="dropdown-item">Meet The Team</a>
                                 <a href="donate.php" class="dropdown-item">Donate Now</a>
                                 <a href="volunteer.php" class="dropdown-item">Become A Volunteer</a>
                             </div>
@@ -505,7 +504,7 @@
                                     <p>
                                         Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
                                     </p>
-                                    <a class="btn btn-custom" href="">Join Now</a>
+                                    <a class="btn btn-custom" href="event.php">Join Now</a>
                                 </div>
                             </div>
                         </div>
@@ -524,7 +523,7 @@
                                     <p>
                                         Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
                                     </p>
-                                    <a class="btn btn-custom" href="">Join Now</a>
+                                    <a class="btn btn-custom" href="event.php">Join Now</a>
                                 </div>
                             </div>
                         </div>
@@ -552,7 +551,7 @@
                                     <textarea class="form-control" placeholder="Why you want to become a volunteer?" required="required"></textarea>
                                 </div>
                                 <div>
-                                    <button class="btn btn-custom" type="submit">Become a volunteer</button>
+                                    <button class="btn btn-custom" type="submit" > <a href="volunteer.php">Become a volunteer</a> </button>
                                 </div>
                             </form>
                         </div>

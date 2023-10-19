@@ -72,7 +72,6 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Involved</a>
                             <div class="dropdown-menu">
-                                <a href="team.php" class="dropdown-item">Meet The Team</a>
                                 <a href="donate.php" class="dropdown-item">Donate Now</a>
                                 <a href="volunteer.php" class="dropdown-item">Become A Volunteer</a>
                             </div>

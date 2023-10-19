@@ -97,8 +97,8 @@
                         <h2>Popular Causes</h2>
                     </div>
                     <div class="col-12">
-                        <a href="">Home</a>
-                        <a href="">Causes</a>
+                        <a href="index.php">Home</a>
+                        <a href="causes.php">Causes</a>
                     </div>
                 </div>
             </div>
@@ -205,8 +205,7 @@
                                 </div>
                             </div>
                             <div class="progress-text">
-                                <p><strong>Raised:</strong> $100000</p>
-                                <p><strong>Goal:</strong> $50000</p>
+                                <p><strong>Needs:</strong> $50000</p>
                             </div>
                         </div>
                         <div class="causes-text">
@@ -229,8 +228,7 @@
                                 </div>
                             </div>
                             <div class="progress-text">
-                                <p><strong>Raised:</strong> $100000</p>
-                                <p><strong>Goal:</strong> $50000</p>
+                                <p><strong>Needs:</strong> $50000</p>
                             </div>
                         </div>
                         <div class="causes-text">
@@ -253,8 +251,7 @@
                                 </div>
                             </div>
                             <div class="progress-text">
-                                <p><strong>Raised:</strong> $100000</p>
-                                <p><strong>Goal:</strong> $50000</p>
+                                <p><strong>Needs:</strong> $50000</p>
                             </div>
                         </div>
                         <div class="causes-text">
@@ -277,8 +274,7 @@
                                 </div>
                             </div>
                             <div class="progress-text">
-                                <p><strong>Raised:</strong> $100000</p>
-                                <p><strong>Goal:</strong> $50000</p>
+                                <p><strong>Needs:</strong> $50000</p>
                             </div>
                         </div>
                         <div class="causes-text">
@@ -303,7 +299,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-contact">
                             <h2>Our Head Office</h2>
-                            <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
+                            <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
                             <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
                             <p><i class="fa fa-envelope"></i>info@example.com</p>
                             <div class="footer-social">
@@ -325,16 +321,7 @@
                             <a href="blog.php">Latest Blog</a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-link">
-                            <h2>Useful Links</h2>
-                            <a href="">Terms of use</a>
-                            <a href="">Privacy policy</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
-                        </div>
-                    </div>
+                    
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-newsletter">
                             <h2>Newsletter</h2>

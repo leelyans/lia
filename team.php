@@ -68,7 +68,6 @@
                     <div class="navbar-nav ml-auto">
                         <a href="index.php" class="nav-item nav-link">Home</a>
                         <a href="about.php" class="nav-item nav-link">About</a>
-                        <a href="causes.php" class="nav-item nav-link">Causes</a>
                         <a href="event.php" class="nav-item nav-link">Events</a>
                         <a href="blog.php" class="nav-item nav-link">Blog</a>
                         <div class="nav-item dropdown">
@@ -97,8 +96,8 @@
                         <h2>Team Member</h2>
                     </div>
                     <div class="col-12">
-                        <a href="">Home</a>
-                        <a href="">Team</a>
+                        <a href="index.php">Home</a>
+                        <a href="team.php">Team</a>
                     </div>
                 </div>
             </div>
@@ -229,7 +228,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-contact">
                             <h2>Our Head Office</h2>
-                            <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
+                            <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
                             <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
                             <p><i class="fa fa-envelope"></i>info@example.com</p>
                             <div class="footer-social">
@@ -251,16 +250,7 @@
                             <a href="blog.php">Latest Blog</a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-link">
-                            <h2>Useful Links</h2>
-                            <a href="">Terms of use</a>
-                            <a href="">Privacy policy</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
-                        </div>
-                    </div>
+                   
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-newsletter">
                             <h2>Newsletter</h2>

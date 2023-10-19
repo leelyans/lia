@@ -68,7 +68,6 @@
                     <div class="navbar-nav ml-auto">
                         <a href="index.php" class="nav-item nav-link">Home</a>
                         <a href="about.php" class="nav-item nav-link">About</a>
-                        <a href="causes.php" class="nav-item nav-link">Causes</a>
                         <a href="event.php" class="nav-item nav-link active">Events</a>
                         <a href="blog.php" class="nav-item nav-link">Blog</a>
                         <div class="nav-item dropdown">
@@ -97,8 +96,8 @@
                         <h2>Upcoming Events</h2>
                     </div>
                     <div class="col-12">
-                        <a href="">Home</a>
-                        <a href="">Events</a>
+                        <a href="index.php">Home</a>
+                        <a href="event.php">Events</a>
                     </div>
                 </div>
             </div>
@@ -119,9 +118,9 @@
                             <img src="img/event3.jpg" alt="Image">
                             <div class="event-content">
                                 <div class="event-meta">
-                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
+                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-23</p>
                                     <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                    <p><i class="fa fa-map-marker-alt"></i>New York</p>
+                                    <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
                                 </div>
                                 <div class="event-text">
                                     <h3>Lorem ipsum dolor sit</h3>
@@ -133,25 +132,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="event-item">
-                            <img src="img/event4.jpg" alt="Image">
-                            <div class="event-content">
-                                <div class="event-meta">
-                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
-                                    <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                    <p><i class="fa fa-map-marker-alt"></i>New York</p>
-                                </div>
-                                <div class="event-text">
-                                    <h3>Lorem ipsum dolor sit</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                    </p>
-                                    <a class="btn btn-custom" href="">Join Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="col-lg-6">
                         <div class="event-item">
                             <img src="img/event5.jpg" alt="Image">
@@ -171,27 +152,88 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="event-item">
-                            <img src="img/event6.jpg" alt="Image">
-                            <div class="event-content">
-                                <div class="event-meta">
-                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
-                                    <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                    <p><i class="fa fa-map-marker-alt"></i>New York</p>
-                                </div>
-                                <div class="event-text">
-                                    <h3>Lorem ipsum dolor sit</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                    </p>
-                                    <a class="btn btn-custom" href="">Join Now</a>
-                                </div>
+
+                   <!-- Blog Start -->
+        <div class="blog">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p> PREVIOUS BLOGS</p>
+                    <h2>Latest news & articles directly from our blog</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog4.jpg" alt="Image">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                </p>
+                            </div>
+                            <div class="blog-meta">
+                                <p><a href="">Admin</a></p>
+                                <p><a href="">Comments</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog5.jpg" alt="Image">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                </p>
+                            </div>
+                            <div class="blog-meta">
+                                <p><a href="">Admin</a></p>
+                                <p><a href="">Comments</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog6.jpg" alt="Image">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                </p>
+                            </div>
+                            <div class="blog-meta">
+                                <p><a href="">Admin</a></p>
+                                <p><a href="">Comments</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog5.jpg" alt="Image">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                </p>
+                            </div>
+                            <div class="blog-meta">
+                                <p><a href="">Admin</a></p>
+                                <p><a href="">Comments</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
+            
         </div>
         <!-- Event End -->
 
@@ -203,7 +245,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-contact">
                             <h2>Our Head Office</h2>
-                            <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
+                            <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
                             <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
                             <p><i class="fa fa-envelope"></i>info@example.com</p>
                             <div class="footer-social">
@@ -225,16 +267,7 @@
                             <a href="blog.php">Latest Blog</a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-link">
-                            <h2>Useful Links</h2>
-                            <a href="">Terms of use</a>
-                            <a href="">Privacy policy</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
-                        </div>
-                    </div>
+                    
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-newsletter">
                             <h2>Newsletter</h2>
@@ -250,7 +283,7 @@
             <div class="container copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>&copy; <a href="#">Love In Action </a>, All Right Reserved.</p>
+                        <p>&copy; <a href="#">Love In Action</a>, All Right Reserved.</p>
                     </div>
                     <div class="col-md-6">
                         <p>Designed By <a href="">COM Agency</a></p>
@@ -259,7 +292,7 @@
             </div>
         </div>
         <!-- Footer End -->
-
+        
         <!-- Back to top button -->
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         

@@ -68,7 +68,6 @@
                     <div class="navbar-nav ml-auto">
                         <a href="index.php" class="nav-item nav-link active">Home</a>
                         <a href="about.php" class="nav-item nav-link">About</a>
-                        <a href="causes.php" class="nav-item nav-link">Causes</a>
                         <a href="event.php" class="nav-item nav-link">Events</a>
                         <a href="blog.php" class="nav-item nav-link">Blog</a>
                         <div class="nav-item dropdown">
@@ -103,7 +102,7 @@
                                 Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac consequat at lectus in malesuada
                             </p>
                             <div class="carousel-btn">
-                                <a class="btn btn-custom" href="">Donate Now</a>
+                                <a class="btn btn-custom" href="donate.php">Donate Now</a>
                                 <a class="btn btn-custom btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Watch Video</a>
                             </div>
                         </div>
@@ -167,12 +166,12 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <div class="about-img" data-parallax="scroll" data-image-src="img/about2.jpg"></div>
+                        <div class="about-img" data-parallax="scroll" data-image-src="img/about3.jpg"></div>
                     </div>
                     <div class="col-lg-6">
                         <div class="section-header">
                             <p>Learn About Us</p>
-                            <h2>Worldwide non-profit charity organization</h2>
+                            <h2>Non-profit charity organization in Rwanda</h2>
                         </div>
                         <div class="about-tab">
                             <ul class="nav nav-pills nav-justified">
@@ -295,7 +294,7 @@
                             <i class="flaticon-home"></i>
                             <div class="facts-text">
                                 <h3 class="facts-plus" data-toggle="counter-up">150</h3>
-                                <p>Countries</p>
+                                <p>Beneficiaries</p>
                             </div>
                         </div>
                     </div>
@@ -337,7 +336,7 @@
             <div class="container">
                 <div class="section-header text-center">
                     <p>Popular Causes</p>
-                    <h2>Let's know about charity causes around the world</h2>
+                    <h2>Let's Help the Needy</h2>
                 </div>
                 <div class="owl-carousel causes-carousel">
                     <div class="causes-item">
@@ -351,8 +350,7 @@
                                 </div>
                             </div>
                             <div class="progress-text">
-                                <p><strong>Raised:</strong> $100000</p>
-                                <p><strong>Goal:</strong> $50000</p>
+                                <p><strong>Needs:</strong> $15 Monthly</p>
                             </div>
                         </div>
                         <div class="causes-text">
@@ -360,8 +358,8 @@
                             <p>Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa</p>
                         </div>
                         <div class="causes-btn">
-                            <a class="btn btn-custom">Learn More</a>
-                            <a class="btn btn-custom">Donate Now</a>
+                            <a class="btn btn-custom" href="child.php">Read More</a>
+                            <a class="btn btn-custom" href="donate.php">Donate Now</a>
                         </div>
                     </div>
                     <div class="causes-item">
@@ -375,8 +373,7 @@
                                 </div>
                             </div>
                             <div class="progress-text">
-                                <p><strong>Raised:</strong> $100000</p>
-                                <p><strong>Goal:</strong> $50000</p>
+                                 <p><strong>Needs:</strong> $15 Monthly</p>
                             </div>
                         </div>
                         <div class="causes-text">
@@ -384,8 +381,8 @@
                             <p>Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa</p>
                         </div>
                         <div class="causes-btn">
-                            <a class="btn btn-custom">Learn More</a>
-                            <a class="btn btn-custom">Donate Now</a>
+                            <a class="btn btn-custom" href="child.php">Read More</a>
+                            <a class="btn btn-custom" href="donate.php">Donate Now</a>
                         </div>
                     </div>
                     <div class="causes-item">
@@ -399,8 +396,7 @@
                                 </div>
                             </div>
                             <div class="progress-text">
-                                <p><strong>Raised:</strong> $100000</p>
-                                <p><strong>Goal:</strong> $50000</p>
+                                <p><strong>Needs:</strong> $15 Monthly</p>
                             </div>
                         </div>
                         <div class="causes-text">
@@ -408,8 +404,8 @@
                             <p>Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa</p>
                         </div>
                         <div class="causes-btn">
-                            <a class="btn btn-custom">Learn More</a>
-                            <a class="btn btn-custom">Donate Now</a>
+                            <a class="btn btn-custom" href="child.php">Read More</a>
+                            <a class="btn btn-custom" href="donate.php">Donate Now</a>
                         </div>
                     </div>
                     <div class="causes-item">
@@ -423,8 +419,7 @@
                                 </div>
                             </div>
                             <div class="progress-text">
-                                <p><strong>Raised:</strong> $100000</p>
-                                <p><strong>Goal:</strong> $50000</p>
+                                <p><strong>Needs:</strong> $15 Monthly</p>
                             </div>
                         </div>
                         <div class="causes-text">
@@ -432,8 +427,8 @@
                             <p>Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa</p>
                         </div>
                         <div class="causes-btn">
-                            <a class="btn btn-custom">Learn More</a>
-                            <a class="btn btn-custom">Donate Now</a>
+                            <a class="btn btn-custom" href="child.php">Read More</a>
+                            <a class="btn btn-custom" href="donate.php">Donate Now</a>
                         </div>
                     </div>
                 </div>
@@ -504,9 +499,9 @@
                             <img src="img/event1.jpg" alt="Image">
                             <div class="event-content">
                                 <div class="event-meta">
-                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
+                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-23</p>
                                     <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                    <p><i class="fa fa-map-marker-alt"></i>New York</p>
+                                    <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
                                 </div>
                                 <div class="event-text">
                                     <h3>Lorem ipsum dolor sit</h3>
@@ -523,9 +518,9 @@
                             <img src="img/event2.jpg" alt="Image">
                             <div class="event-content">
                                 <div class="event-meta">
-                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
+                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-23</p>
                                     <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                    <p><i class="fa fa-map-marker-alt"></i>New York</p>
+                                    <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
                                 </div>
                                 <div class="event-text">
                                     <h3>Lorem ipsum dolor sit</h3>
@@ -666,7 +661,8 @@
                 </div>
                 <div class="contact-form">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                      <form name="sentMessage" id="contactForm" novalidate="novalidate" method="post" action="submit_form.php">
+
                             <div class="control-group">
                                 <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
                                 <p class="help-block text-danger"></p>
@@ -685,6 +681,8 @@
                             </div>
                             <div>
                                 <button class="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
+
+
                             </div>
                         </form>
                     </div>
@@ -700,7 +698,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-contact">
                             <h2>Our Head Office</h2>
-                            <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
+                            <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
                             <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
                             <p><i class="fa fa-envelope"></i>info@example.com</p>
                             <div class="footer-social">
@@ -722,16 +720,7 @@
                             <a href="blog.php">Latest Blog</a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-link">
-                            <h2>Useful Links</h2>
-                            <a href="">Terms of use</a>
-                            <a href="">Privacy policy</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
-                        </div>
-                    </div>
+                    
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-newsletter">
                             <h2>Newsletter</h2>

@@ -69,12 +69,9 @@
                         <a href="index.php" class="nav-item nav-link">Home</a>
                         <a href="about.php" class="nav-item nav-link">About</a>
                         <a href="event.php" class="nav-item nav-link active">Events</a>
-                        <a href="blog.php" class="nav-item nav-link">Blog</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Involved</a>
                             <div class="dropdown-menu">
-                                <a href="single.php" class="dropdown-item">Detail Page</a>
-                                <a href="service.php" class="dropdown-item">What We Do</a>
                                 <a href="team.php" class="dropdown-item">Meet The Team</a>
                                 <a href="donate.php" class="dropdown-item">Donate Now</a>
                                 <a href="volunteer.php" class="dropdown-item">Become A Volunteer</a>
@@ -138,9 +135,9 @@
                             <img src="img/event5.jpg" alt="Image">
                             <div class="event-content">
                                 <div class="event-meta">
-                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
+                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-23</p>
                                     <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                    <p><i class="fa fa-map-marker-alt"></i>New York</p>
+                                    <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
                                 </div>
                                 <div class="event-text">
                                     <h3>Lorem ipsum dolor sit</h3>
@@ -164,7 +161,7 @@
                     <div class="col-lg-3">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img src="img/blog4.jpg" alt="Image">
+                                <img src="img/previous1.jpg" alt="Image">
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
@@ -181,7 +178,7 @@
                     <div class="col-lg-3">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img src="img/blog5.jpg" alt="Image">
+                                <img src="img/previous2.jpg" alt="Image">
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
@@ -198,7 +195,7 @@
                     <div class="col-lg-3">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img src="img/blog6.jpg" alt="Image">
+                                <img src="img/previous3.jpg" alt="Image">
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
@@ -215,7 +212,7 @@
                     <div class="col-lg-3">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img src="img/blog5.jpg" alt="Image">
+                                <img src="img/previous4.jpg" alt="Image">
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
@@ -231,6 +228,8 @@
                     </div>
                 </div>
             </div>
+        </div>
+            
         </div>
         </div>
             

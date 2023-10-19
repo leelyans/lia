@@ -69,12 +69,9 @@
                         <a href="index.php" class="nav-item nav-link">Home</a>
                         <a href="about.php" class="nav-item nav-link">About</a>
                         <a href="event.php" class="nav-item nav-link">Events</a>
-                        <a href="blog.php" class="nav-item nav-link">Blog</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Pages</a>
+                            <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Get Involved</a>
                             <div class="dropdown-menu">
-                                <a href="single.php" class="dropdown-item">Detail Page</a>
-                                <a href="service.php" class="dropdown-item">What We Do</a>
                                 <a href="team.php" class="dropdown-item">Meet The Team</a>
                                 <a href="donate.html" class="dropdown-item">Donate Now</a>
                                 <a href="volunteer.php" class="dropdown-item">Become A Volunteer</a>

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>LIA - Free Charity Website Template</title>
+        <title>LIA - Free Charity Website </title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -57,12 +57,16 @@
         <!-- Top Bar End -->
 
         <!-- Nav Bar Start -->
-        <div class="navbar navbar-expand-lg bg-dark navbar-dark">
-            <div class="container-fluid">
-                <a href="index.php" class="navbar-brand">LIA</a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+       <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+        <a href="index.php" class="navbar-brand">
+            <img src="img/logo1.png" alt="LIA Logo" >
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
@@ -93,9 +97,10 @@
                             <img src="img/index1.jpg" alt="Image">
                         </div>
                         <div class="carousel-text">
-                            <h1>Let's be kind for children</h1>
+                            <h1>LET'S BE KIND FOR CHILDREN</h1>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac consequat at lectus in malesuada
+                                Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. <br>
+                                Vivamus egestas eleifend dui ac consequat at lectus in malesuada
                             </p>
                             <div class="carousel-btn">
                                 <a class="btn btn-custom" href="donate.php">Donate Now</a>
@@ -108,12 +113,13 @@
                             <img src="img/index2.jpg" alt="Image">
                         </div>
                         <div class="carousel-text">
-                            <h1>Get Involved with helping hand</h1>
+                            <h1>GET INVOLVED WITH HELPING HAND</h1>
                             <p>
-                                Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi sagittis, orci sodales varius fermentum, tortor
+                                Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna.<br> 
+                                Morbi sagittis, orci sodales varius fermentum, tortor
                             </p>
                             <div class="carousel-btn">
-                                <a class="btn btn-custom" href="">Donate Now</a>
+                                <a class="btn btn-custom" href="donate.php">Donate Now</a>
                                 <a class="btn btn-custom btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Watch Video</a>
                             </div>
                         </div>
@@ -123,12 +129,13 @@
                             <img src="img/index3.jpg" alt="Image">
                         </div>
                         <div class="carousel-text">
-                            <h1>Bringing smiles to millions</h1>
+                            <h1>BRINGING SMILES TO MILLIONS</h1>
                             <p>
-                                Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, ut rhoncus nibh ligula euismod quam. Proin pellentesque odio
+                                Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, <br>
+                                ut rhoncus nibh ligula euismod quam. Proin pellentesque odio
                             </p>
                             <div class="carousel-btn">
-                                <a class="btn btn-custom" href="">Donate Now</a>
+                                <a class="btn btn-custom" href="donate.php">Donate Now</a>
                                 <a class="btn btn-custom btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Watch Video</a>
                             </div>
                         </div>

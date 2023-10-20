@@ -58,11 +58,13 @@
 
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
-            <div class="container-fluid">
-                <a href="index.php" class="navbar-brand">LIA</a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <div class="container-fluid">
+        <a href="index.php" class="navbar-brand">
+            <img src="img/logo1.png" alt="LIA Logo" >
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
@@ -154,7 +156,7 @@
                             <i class="flaticon-home"></i>
                             <div class="facts-text">
                                 <h3 class="facts-plus" data-toggle="counter-up">150</h3>
-                                <p>Countries</p>
+                                <p>Beneficiaries</p>
                             </div>
                         </div>
                     </div>
@@ -202,105 +204,100 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team1.jfif" alt="Team Image">
+                                <img src="img/comittee1.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
                                 <h2>BAYITO Egide</h2>
-                                <p>Founder & Country Director</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
+                                <p>
+                                    Founder & Country Director<br>
+                                    Email: xxx<br>
+                                    Phone number:0787930487<br>
+                                </p>
+                               
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team2.jfif" alt="Team Image">
+                                <img src="img/comittee2.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
                                 <h2>RURAMIRA Tiana</h2>
-                                <p>Secretary</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
+                                <p>
+                                    Internal Relations Assistant <br>
+                                    Email:ruramitiana710@gmail.com  <br>
+                                    Phone number:0786175908 <br>
+                                </p>
+                               
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team3.jfif" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>MUGABO Patricia</h2>
-                                <p>Public Relations Director</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team4.jfif" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>NTSINZI Ahmed</h2>
-                                <p>Internal Relations</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                     <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team5.jfif" alt="Team Image">
+                                <img src="img/comittee3.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
                                 <h2>SUGIRA Patrick</h2>
-                                <p>Legal Advisor</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
+                                <p>
+                                    Legal Advisor <br>
+                                    Email:sugira.patrick2@gmail.com <br>
+                                    Phone number:+250 787 637 422 <br>
+                                </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/comittee4.jpg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Viviane NYIRAMANA</h2>
+                                <p>
+                                    Director of Finance <br>
+                                    Email:viviane.nyiramana21a@kepler.org <br>
+                                    Phone number:0783953862 <br>
+                                </p>
+                                
                             </div>
                         </div>
                     </div>
                      <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team6.jfif" alt="Team Image">
+                                <img src="img/comittee5.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>NGOGA Yves</h2>
-                                <p>Entertainment and Events Coordinator</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
+                                <h2>NTSINZI Anselme (Ahmed)</h2>
+                                <p>
+                                     Internal Relations <br> 
+                                     Email:ntsinziahmed@gmail.com <br> 
+                                     Phone number:0788531326 <br>
+                                </p>
+                               
                             </div>
                         </div>
                     </div>
+                     <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/comittee6.jpg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>KARAMBIZI Kelley Shima</h2>
+                                <p>
+                                    Public Relations Assistant <br> 
+                                    Email:Kelleyshima20@gmail.com <br>
+                                    Phone number:0783318156 <br>
+                                </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                     
                 </div>
             </div>
         </div>

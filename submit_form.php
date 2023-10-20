@@ -1,29 +1,40 @@
 <?php
-// Establish a database connection (adjust credentials as needed)
+// Replace with your actual database credentials
 $host = "localhost";
-$username = "your_username";
-$password = "your_password";
+$username = "root";
+$password = "";
 $database = "contact_form";
-$conn = new mysqli('localhost', 'root', '' , 'contact_form');
+
+// Create a new database connection
+$conn = new mysqli($host, $username, $password, $database);
 
 // Check for database connection errors
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Retrieve form data
-$name = $_POST["name"];
-$email = $_POST["email"];
-$subject = $_POST["subject"];
-$message = $_POST["message"];
+// Retrieve form data and sanitize
+$name = $conn->real_escape_string($_POST["name"]);
+$email = $conn->real_escape_string($_POST["email"]);
+$subject = $conn->real_escape_string($_POST["subject"]);
+$message = $conn->real_escape_string($_POST["message"]);
 
-// Insert data into the database
-$sql = "INSERT INTO contact_entries (name, email, subject, message) VALUES ('$name', '$email', '$subject', '$message')";
+// Use prepared statements to insert data
+$sql = "INSERT INTO contact_entries (name, email, subject, message) VALUES (?, ?, ?, ?)";
 
-if ($conn->query($sql) === TRUE) {
-    echo "Data submitted successfully.";
+$stmt = $conn->prepare($sql);
+if ($stmt) {
+    $stmt->bind_param("ssss", $name, $email, $subject, $message);
+
+    if ($stmt->execute()) {
+        echo "Data submitted successfully.";
+    } else {
+        echo "Error executing the query: " . $stmt->error;
+    }
+
+    $stmt->close();
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Error preparing the statement: " . $conn->error;
 }
 
 // Close the database connection

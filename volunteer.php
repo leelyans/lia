@@ -109,15 +109,25 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5">
                         <div class="volunteer-form">
-                            <form>
+                            <?php
+                            if (isset($_GET['error'])) {
+                                $message = $_GET['error'];
+                            } elseif (isset($_GET['message'])) {
+                                $message = $_GET['message'];
+                            } else {
+                                $message = ''; // Set a default value
+                            }
+                            ?>
+                            <div style="font-weight: bold; text-align: center;" class="error_div"><?= $message ?></div><br>
+                            <form method="POST" action="submit volunteer.php">
                                 <div class="control-group">
-                                    <input type="text" class="form-control" placeholder="Name" required="required" />
+                                    <input type="text" class="form-control" placeholder="Name" name="name" required="required" />
                                 </div>
                                 <div class="control-group">
-                                    <input type="email" class="form-control" placeholder="Email" required="required" />
+                                    <input type="email" class="form-control" placeholder="Email" name="email" required="required" />
                                 </div>
                                 <div class="control-group">
-                                    <textarea class="form-control" placeholder="Why you want to become a volunteer?" required="required"></textarea>
+                                    <textarea class="form-control" placeholder="Why you want to become a volunteer?" name="purpose" required="required"></textarea>
                                 </div>
                                 <div>
                                     <button class="btn btn-custom" type="submit">Become a volunteer</button>
@@ -222,5 +232,11 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script type="text/javascript">
+            const error_div = document.querySelector(".error_div")
+            setTimeout(() => {
+                error_div.style.display = "none"
+            }, 5000)
+        </script>
     </body>
 </html>

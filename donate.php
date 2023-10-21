@@ -131,13 +131,16 @@
                                 </div>
                                 <div class="btn-group btn-group-toggle" data-toggle="buttons">
                                     <label class="btn btn-custom active">
-                                        <input type="radio" name="options" checked> $10
+                                        <input type="radio" name="options"> $10
                                     </label>
                                     <label class="btn btn-custom">
                                         <input type="radio" name="options"> $20
                                     </label>
                                     <label class="btn btn-custom">
                                         <input type="radio" name="options"> $30
+                                    </label>
+                                     <label class="btn btn-custom">
+                                        <input type="radio" name="options" value="custom"> Custom $
                                     </label>
                                 </div>
                                 <div>

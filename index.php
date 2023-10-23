@@ -1,3 +1,25 @@
+<?php
+include("conn.php");
+
+// Initialize variables
+$volunteers_no = 0;
+$amount = 0;
+
+// Retrieve the number of volunteers
+$volunteers_query = mysqli_query($conn, "SELECT COUNT(*) AS count FROM volunteers");
+if ($volunteers_query) {
+    $volunteers_data = mysqli_fetch_assoc($volunteers_query);
+    $volunteers_no = $volunteers_data['count'];
+}
+
+// Retrieve the total donation amount
+$amount_query = mysqli_query($conn, "SELECT SUM(amount) AS total_amount FROM donations");
+if ($amount_query) {
+    $amount_data = mysqli_fetch_assoc($amount_query);
+    $amount = $amount_data['total_amount'];
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -305,7 +327,7 @@
                         <div class="facts-item">
                             <i class="flaticon-charity"></i>
                             <div class="facts-text">
-                                <h3 class="facts-plus" data-toggle="counter-up">400</h3>
+                                <h3 class="facts-plus" data-toggle="counter-up"><?=$volunteers_no?></h3>
                                 <p>Volunteers</p>
                             </div>
                         </div>
@@ -323,7 +345,7 @@
                         <div class="facts-item">
                             <i class="flaticon-donation"></i>
                             <div class="facts-text">
-                                <h3 class="facts-dollar" data-toggle="counter-up">5000</h3>
+                                <h3 class="facts-dollar" data-toggle="counter-up"><?=$amount?></h3>
                                 <p>Raised</p>
                             </div>
                         </div>
@@ -459,27 +481,28 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="donate-form">
-                            <form>
-                                <div class="control-group">
-                                    <input type="text" class="form-control" placeholder="Name" required="required" />
-                                </div>
-                                <div class="control-group">
-                                    <input type="email" class="form-control" placeholder="Email" required="required" />
-                                </div>
-                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-custom active">
-                                        <input type="radio" name="options" checked> $10
-                                    </label>
-                                    <label class="btn btn-custom">
-                                        <input type="radio" name="options"> $20
-                                    </label>
-                                    <label class="btn btn-custom">
-                                        <input type="radio" name="options"> $30
-                                    </label>
-                                </div>
-                                <div>
-                                    <button class="btn btn-custom" type="submit">Donate Now</button>
-                                </div>
+                            <form method="POST" action="submit_donate.php">
+                            <div class="control-group">
+                                <input type="text" class="form-control" name="name" placeholder="Name" required="required" />
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" name="email" placeholder="Email" required="required" />
+                            </div>
+                            <div>
+                                <label class="btn btn-custom">
+                                    <input type="radio" name="donation_option" value="10"> $10
+                                </label>
+                                <label class="btn btn-custom">
+                                    <input type="radio" name="donation_option" value="20"> $20
+                                </label>
+                                <label class="btn btn-custom">
+                                    <input type="radio" name="donation_option" value="30"> $30
+                                </label>
+                                <input type="number" name="custom_amount" class="btn btn-custom" value="custom" placeholder="Custom $"><br><br>
+                            </div>
+                            <div>
+                                <button class="btn btn-custom" type="submit">Donate Now</button>
+                            </div>
                             </form>
                         </div>
                     </div>
@@ -548,18 +571,18 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5">
                         <div class="volunteer-form">
-                            <form>
+                            <form method="POST" action="submit volunteer.php">
                                 <div class="control-group">
-                                    <input type="text" class="form-control" placeholder="Name" required="required" />
+                                    <input type="text" class="form-control" placeholder="Name" name="name" required="required" />
                                 </div>
                                 <div class="control-group">
-                                    <input type="email" class="form-control" placeholder="Email" required="required" />
+                                    <input type="email" class="form-control" placeholder="Email" name="email" required="required" />
                                 </div>
                                 <div class="control-group">
-                                    <textarea class="form-control" placeholder="Why you want to become a volunteer?" required="required"></textarea>
+                                    <textarea class="form-control" placeholder="Why you want to become a volunteer?" name="purpose" required="required"></textarea>
                                 </div>
                                 <div>
-                                    <button class="btn btn-custom" type="submit" > <a href="volunteer.php">Become a volunteer</a> </button>
+                                    <button class="btn btn-custom" type="submit">Become a volunteer</button>
                                 </div>
                             </form>
                         </div>

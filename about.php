@@ -1,3 +1,26 @@
+<?php
+include("conn.php");
+
+// Initialize variables
+$volunteers_no = 0;
+$amount = 0;
+
+// Retrieve the number of volunteers
+$volunteers_query = mysqli_query($conn, "SELECT COUNT(*) AS count FROM volunteers");
+if ($volunteers_query) {
+    $volunteers_data = mysqli_fetch_assoc($volunteers_query);
+    $volunteers_no = $volunteers_data['count'];
+}
+
+// Retrieve the total donation amount
+$amount_query = mysqli_query($conn, "SELECT SUM(amount) AS total_amount FROM donations");
+if ($amount_query) {
+    $amount_data = mysqli_fetch_assoc($amount_query);
+    $amount = $amount_data['total_amount'];
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -170,7 +193,7 @@
                         <div class="facts-item">
                             <i class="flaticon-charity"></i>
                             <div class="facts-text">
-                                <h3 class="facts-plus" data-toggle="counter-up">400</h3>
+                                <h3 class="facts-plus" data-toggle="counter-up"><?=$volunteers_no?></h3>
                                 <p>Volunteers</p>
                             </div>
                         </div>
@@ -188,7 +211,7 @@
                         <div class="facts-item">
                             <i class="flaticon-donation"></i>
                             <div class="facts-text">
-                                <h3 class="facts-dollar" data-toggle="counter-up">5000</h3>
+                                <h3 class="facts-dollar" data-toggle="counter-up"><?=$amount?></h3>
                                 <p>Raised</p>
                             </div>
                         </div>

@@ -1,6 +1,6 @@
 <?php 
-$conn = mysqli_connect("localhost", "root", "", "contact_form");
-if ($conn) {
+	require("conn.php");
+
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$purpose = $_POST['purpose'];
@@ -16,7 +16,4 @@ if ($conn) {
 			}
 		}
 	}
-} else{
-	die("Failed to connect to database");
-}
 ?>

@@ -235,7 +235,7 @@
             const error_div = document.querySelector(".error_div")
             setTimeout(() => {
                 error_div.style.display = "none"
-            }, 5000)
+            }, 10000)
         </script>
     </body>
 </html>

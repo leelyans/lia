@@ -122,26 +122,24 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="donate-form">
-                            <form>
+                            <form method="POST" action="submit_donate.php">
                                 <div class="control-group">
-                                    <input type="text" class="form-control" placeholder="Name" required="required" />
+                                    <input type="text" class="form-control" name="name" placeholder="Name" required="required" />
                                 </div>
                                 <div class="control-group">
-                                    <input type="email" class="form-control" placeholder="Email" required="required" />
+                                    <input type="email" class="form-control" name="email" placeholder="Email" required="required" />
                                 </div>
-                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-custom active">
-                                        <input type="radio" name="options"> $10
+                                <div>
+                                    <label class="btn btn-custom">
+                                        <input type="radio" name="donation_option" value="10"> $10
                                     </label>
                                     <label class="btn btn-custom">
-                                        <input type="radio" name="options"> $20
+                                        <input type="radio" name="donation_option" value="20"> $20
                                     </label>
                                     <label class="btn btn-custom">
-                                        <input type="radio" name="options"> $30
+                                        <input type="radio" name="donation_option" value="30"> $30
                                     </label>
-                                     <label class="btn btn-custom">
-                                        <input type="radio" name="options" value="custom"> Custom $
-                                    </label>
+                                    <input type="number" name="custom_amount" class="btn btn-custom" value="custom" placeholder="Custom $"><br><br>
                                 </div>
                                 <div>
                                     <button class="btn btn-custom" type="submit">Donate Now</button>

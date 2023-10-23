@@ -499,38 +499,39 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="event-item">
-                            <img src="img/event1.jpg" alt="Image">
+                            <img src="img/together.jpg" alt="Image">
                             <div class="event-content">
                                 <div class="event-meta">
-                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-23</p>
+                                    <p><i class="fa fa-calendar-alt"></i>30-Dec-23</p>
                                     <p><i class="far fa-clock"></i>8:00 - 10:00</p>
                                     <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
                                 </div>
                                 <div class="event-text">
-                                    <h3>Lorem ipsum dolor sit</h3>
+                                    <h3>Together For the Holidays</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                       Time for us to meet our beneficiaries and celebrate the holidays and our one year anniversary.
                                     </p>
-                                    <a class="btn btn-custom" href="event.php">Join Now</a>
+                                    <a class="btn btn-custom" href="">Join Now</a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
                     <div class="col-lg-6">
                         <div class="event-item">
-                            <img src="img/event2.jpg" alt="Image">
+                            <img src="img/invitation.jpg" alt="Image">
                             <div class="event-content">
                                 <div class="event-meta">
-                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-23</p>
+                                    <p><i class="fa fa-calendar-alt"></i>30-Dec-23</p>
                                     <p><i class="far fa-clock"></i>8:00 - 10:00</p>
                                     <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
                                 </div>
                                 <div class="event-text">
-                                    <h3>Lorem ipsum dolor sit</h3>
+                                    <h3>Together For the Holidays</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                        We would like for you join us in this special occasion.
                                     </p>
-                                    <a class="btn btn-custom" href="event.php">Join Now</a>
+                                    <a class="btn btn-custom" href="">Join Now</a>
                                 </div>
                             </div>
                         </div>
@@ -652,46 +653,7 @@
         <!-- Testimonial End -->
         
         
-        <!-- Contact Start -->
-        <div class="contact">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Get In Touch</p>
-                    <h2>Contact for any query</h2>
-                </div>
-                <div class="contact-img">
-                    <img src="img/index4.jpg" alt="Image">
-                </div>
-                <div class="contact-form">
-                        <div id="success"></div>
-                      <form name="sentMessage" id="contactForm" novalidate="novalidate" method="post" action="submit_form.php">
-
-                            <div class="control-group">
-                                <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
-
-
-                            </div>
-                        </form>
-                    </div>
-            </div>
-        </div>
-        <!-- Contact End -->
+      
 
 
         <!-- Footer Start -->
@@ -715,12 +677,12 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-link">
-                            <h2>Popular Links</h2>
-                            <a href="about.php">About Us</a>
-                            <a href="contact.php">Contact Us</a>
-                            <a href="causes.php">Popular Causes</a>
-                            <a href="event.php">Upcoming Events</a>
-                            <a href="blog.php">Latest Blog</a>
+                              <h2>Popular Links</h2>
+                            <a href="index.php">Welcome</a>
+                            <a href="about.php">About us</a>
+                            <a href="donate.php">Donate</a>
+                            <a href="volunteer.php">Volunteer</a>
+                            <a href="event.php">Events</a>
                         </div>
                     </div>
                     

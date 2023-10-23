@@ -176,12 +176,12 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-link">
-                            <h2>Popular Links</h2>
-                            <a href="about.php">About Us</a>
-                            <a href="contact.php">Contact Us</a>
-                            <a href="causes.php">Popular Causes</a>
-                            <a href="event.php">Upcoming Events</a>
-                            <a href="blog.php">Latest Blog</a>
+                              <h2>Popular Links</h2>
+                            <a href="index.php">Welcome</a>
+                            <a href="about.php">About us</a>
+                            <a href="donate.php">Donate</a>
+                            <a href="volunteer.php">Volunteer</a>
+                            <a href="event.php">Events</a>
                         </div>
                     </div>
                     

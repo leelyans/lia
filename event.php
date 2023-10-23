@@ -116,7 +116,7 @@
                             <img src="img/together.jpg" alt="Image">
                             <div class="event-content">
                                 <div class="event-meta">
-                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-23</p>
+                                    <p><i class="fa fa-calendar-alt"></i>30-Dec-23</p>
                                     <p><i class="far fa-clock"></i>8:00 - 10:00</p>
                                     <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
                                 </div>
@@ -136,7 +136,7 @@
                             <img src="img/invitation.jpg" alt="Image">
                             <div class="event-content">
                                 <div class="event-meta">
-                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-23</p>
+                                    <p><i class="fa fa-calendar-alt"></i>30-Dec-23</p>
                                     <p><i class="far fa-clock"></i>8:00 - 10:00</p>
                                     <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
                                 </div>
@@ -247,12 +247,12 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-link">
-                            <h2>Popular Links</h2>
-                            <a href="about.php">About Us</a>
-                            <a href="contact.php">Contact Us</a>
-                            <a href="causes.php">Popular Causes</a>
-                            <a href="event.php">Upcoming Events</a>
-                            <a href="blog.php">Latest Blog</a>
+                              <h2>Popular Links</h2>
+                            <a href="index.php">Welcome</a>
+                            <a href="about.php">About us</a>
+                            <a href="donate.php">Donate</a>
+                            <a href="volunteer.php">Volunteer</a>
+                            <a href="event.php">Events</a>
                         </div>
                     </div>
                     

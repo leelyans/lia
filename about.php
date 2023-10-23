@@ -22,6 +22,12 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <style type="text/css">
+            .team h4{
+    font-size: 15px;
+}
+
+        </style>
     </head>
 
     <body>
@@ -208,10 +214,11 @@
                             </div>
                             <div class="team-text">
                                 <h2>BAYITO Egide</h2>
+                                <h4>Founder & Country Director</h4>
                                 <p>
-                                    Founder & Country Director<br>
-                                    Email: xxx<br>
-                                    Phone number:0787930487<br>
+                                    <br>
+                                    bayitoegide@gmail.com<br>
+                                    +250 787 930 487<br>
                                 </p>
                                
                             </div>
@@ -224,10 +231,11 @@
                             </div>
                             <div class="team-text">
                                 <h2>RURAMIRA Tiana</h2>
+                                <h4>Internal Relations Assistant</h4>
                                 <p>
-                                    Internal Relations Assistant <br>
-                                    Email:ruramitiana710@gmail.com  <br>
-                                    Phone number:0786175908 <br>
+                                     <br>
+                                  ruramitiana710@gmail.com  <br>
+                                    +250 786 175 908 <br>
                                 </p>
                                
                             </div>
@@ -240,10 +248,11 @@
                             </div>
                             <div class="team-text">
                                 <h2>SUGIRA Patrick</h2>
+                                <h4>Legal Advisor </h4>
                                 <p>
-                                    Legal Advisor <br>
-                                    Email:sugira.patrick2@gmail.com <br>
-                                    Phone number:+250 787 637 422 <br>
+                                    <br>
+                                   sugira.patrick2@gmail.com <br>
+                                 +250 787 637 422 <br>
                                 </p>
                                
                             </div>
@@ -256,10 +265,11 @@
                             </div>
                             <div class="team-text">
                                 <h2>Viviane NYIRAMANA</h2>
+                                <h4> Director of Finance </h4>
                                 <p>
-                                    Director of Finance <br>
-                                    Email:viviane.nyiramana21a@kepler.org <br>
-                                    Phone number:0783953862 <br>
+                                   <br>
+                                    viviane.nyiramana21a@kepler.org <br>
+                                    +250 783 953 862 <br>
                                 </p>
                                 
                             </div>
@@ -271,11 +281,12 @@
                                 <img src="img/comittee5.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>NTSINZI Anselme (Ahmed)</h2>
+                                <h2>NTSINZI Anselme</h2>
+                                <h4> Internal Relations </h4>
                                 <p>
-                                     Internal Relations <br> 
-                                     Email:ntsinziahmed@gmail.com <br> 
-                                     Phone number:0788531326 <br>
+                                    <br> 
+                                   ntsinziahmed@gmail.com <br> 
+                                   +250 788 531 326 <br>
                                 </p>
                                
                             </div>
@@ -288,10 +299,11 @@
                             </div>
                             <div class="team-text">
                                 <h2>KARAMBIZI Kelley Shima</h2>
+                                <h4>Public Relations Assistant</h4>
                                 <p>
-                                    Public Relations Assistant <br> 
-                                    Email:Kelleyshima20@gmail.com <br>
-                                    Phone number:0783318156 <br>
+                                     <br> 
+                                   Kelleyshima20@gmail.com <br>
+                                   +250 783 318 156 <br>
                                 </p>
                                
                             </div>
@@ -395,12 +407,12 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-link">
-                            <h2>Popular Links</h2>
-                            <a href="about.php">About Us</a>
-                            <a href="contact.php">Contact Us</a>
-                            <a href="causes.php">Popular Causes</a>
-                            <a href="event.php">Upcoming Events</a>
-                            <a href="blog.php">Latest Blog</a>
+                             <h2>Popular Links</h2>
+                            <a href="index.php">Welcome</a>
+                            <a href="about.php">About us</a>
+                            <a href="donate.php">Donate</a>
+                            <a href="volunteer.php">Volunteer</a>
+                            <a href="event.php">Events</a>
                         </div>
                     </div>
                    

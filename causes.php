@@ -25,7 +25,7 @@
     </head>
 
     <body>
-        <!-- Top Bar Start -->
+       <!-- Top Bar Start -->
         <div class="top-bar d-none d-md-block">
             <div class="container-fluid">
                 <div class="row">
@@ -33,11 +33,11 @@
                         <div class="top-bar-left">
                             <div class="text">
                                 <i class="fa fa-phone-alt"></i>
-                                <p>+123 456 7890</p>
+                                <p>+250 787 930 487</p>
                             </div>
                             <div class="text">
                                 <i class="fa fa-envelope"></i>
-                                <p>info@example.com</p>
+                                <p>loveinaction@gmail.com</p>
                             </div>
                         </div>
                     </div>

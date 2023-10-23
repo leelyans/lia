@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>LIA - Free Charity Website Template</title>
+        <title>Events - Love In Action Organisation</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -33,11 +33,11 @@
                         <div class="top-bar-left">
                             <div class="text">
                                 <i class="fa fa-phone-alt"></i>
-                                <p>+123 456 7890</p>
+                                <p>+250 787 930 487</p>
                             </div>
                             <div class="text">
                                 <i class="fa fa-envelope"></i>
-                                <p>info@example.com</p>
+                                <p>loveinaction@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="event-item">
-                            <img src="img/event3.jpg" alt="Image">
+                            <img src="img/together.jpg" alt="Image">
                             <div class="event-content">
                                 <div class="event-meta">
                                     <p><i class="fa fa-calendar-alt"></i>01-Jan-23</p>
@@ -121,9 +121,9 @@
                                     <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
                                 </div>
                                 <div class="event-text">
-                                    <h3>Lorem ipsum dolor sit</h3>
+                                    <h3>Together For the Holidays</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                       Time for us to meet our beneficiaries and celebrate the holidays and our one year anniversary.
                                     </p>
                                     <a class="btn btn-custom" href="">Join Now</a>
                                 </div>
@@ -133,7 +133,7 @@
                     
                     <div class="col-lg-6">
                         <div class="event-item">
-                            <img src="img/event5.jpg" alt="Image">
+                            <img src="img/invitation.jpg" alt="Image">
                             <div class="event-content">
                                 <div class="event-meta">
                                     <p><i class="fa fa-calendar-alt"></i>01-Jan-23</p>
@@ -141,9 +141,9 @@
                                     <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
                                 </div>
                                 <div class="event-text">
-                                    <h3>Lorem ipsum dolor sit</h3>
+                                    <h3>Together For the Holidays</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                        We would like for you join us in this special occasion.
                                     </p>
                                     <a class="btn btn-custom" href="">Join Now</a>
                                 </div>
@@ -170,10 +170,7 @@
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
                                 </p>
                             </div>
-                            <div class="blog-meta">
-                                <p><a href="">Admin</a></p>
-                                <p><a href="">Comments</a></p>
-                            </div>
+                           
                         </div>
                     </div>
                     <div class="col-lg-3">
@@ -187,10 +184,7 @@
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
                                 </p>
                             </div>
-                            <div class="blog-meta">
-                                <p><a href="">Admin</a></p>
-                                <p><a href="">Comments</a></p>
-                            </div>
+                           
                         </div>
                     </div>
                     <div class="col-lg-3">
@@ -204,10 +198,7 @@
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
                                 </p>
                             </div>
-                            <div class="blog-meta">
-                                <p><a href="">Admin</a></p>
-                                <p><a href="">Comments</a></p>
-                            </div>
+                           
                         </div>
                     </div>
                     <div class="col-lg-3">
@@ -221,10 +212,7 @@
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
                                 </p>
                             </div>
-                            <div class="blog-meta">
-                                <p><a href="">Admin</a></p>
-                                <p><a href="">Comments</a></p>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>

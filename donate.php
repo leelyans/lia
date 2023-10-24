@@ -8,7 +8,7 @@
         <meta content="Free Website Template" name="description">
 
         <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+        <link href="img/logo2.png" rel="icon">
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -23,6 +23,42 @@
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
+    <style>
+        .payment_method{
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.377);
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            margin: -3rem 0 2rem 0;
+        }
+        .payment_method img{
+            width: 1rem;
+            margin: auto 0 auto auto;
+            cursor: pointer;
+        }
+        .payment_method .complete{
+            margin: 2rem auto 0 auto;
+            font-size: 22px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #fff;
+            cursor: default;
+        }
+        .payment_method div{
+            display: flex;
+            font-size: larger;
+            color: black;
+        }
+        .payment_method div p{
+            margin: 0 0 0 1rem;
+            font-weight: bold;
+            color: white;
+        }
+        .display_none{
+            display: none;
+        }
+    </style>
 
     <body>
        <!-- Top Bar Start -->
@@ -37,7 +73,7 @@
                             </div>
                             <div class="text">
                                 <i class="fa fa-envelope"></i>
-                                <p>loveinaction@gmail.com</p>
+                                <p>loveinactionorganization@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -74,8 +110,8 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Get Involved</a>
                             <div class="dropdown-menu">
-                                <a href="donate.html" class="dropdown-item">Donate Now</a>
-                                <a href="volunteer.php" class="dropdown-item">Become A Volunteer</a>
+                                <a href="donate.php" class="dropdown-item">Donate Now</a>
+                                <a href="member.php" class="dropdown-item">Become A Member</a>
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
@@ -115,15 +151,21 @@
                             </div>
                             <div class="donate-text">
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non. Aliquam metus tortor, auctor id gravida, viverra quis sem. Curabitur non nisl nec nisi maximus. Aenean convallis porttitor. Aliquam interdum at lacus non blandit.
+                                Donating to needy people is a powerful and compassionate act that has the potential to transform lives. These acts of generosity provide essential resources, such as food, clothing, shelter, and education, to those facing adversity.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-5">
                         <div class="donate-form">
-                            <form method="POST" action="submit_donate.php">
-                                <div class="control-group">
+                            <div class="payment_method display_none">
+                                <img src="img/close.png" alt="Close btn" class="close_btn">
+                                <div>Momo Pay: <p>670199</p></div>
+                                <div>Mobile Money: <p>0785 688 867</p></div>
+                                <div>Bank Account: </div>
+                                <div class="complete" >Please Complete Donation</div>
+                            </div>
+                            <form method="POST" action="submit_donate.php">                                 <div class="control-group">
                                     <input type="text" class="form-control" name="name" placeholder="Name" required="required" />
                                 </div>
                                 <div class="control-group">
@@ -142,9 +184,9 @@
                                     <input type="number" name="custom_amount" class="btn btn-custom" value="custom" placeholder="Custom $"><br><br>
                                 </div>
                                 <div>
-                                    <button class="btn btn-custom" type="submit">Donate Now</button>
+                                    <button class="btn btn-custom" class="submit_donate" onclick="pay()">Donate Now</button>
                                 </div>
-                            </form>
+                            </form> 
                         </div>
                     </div>
                 </div>
@@ -161,8 +203,8 @@
                         <div class="footer-contact">
                             <h2>Our Head Office</h2>
                             <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
-                            <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                            <p><i class="fa fa-envelope"></i>info@example.com</p>
+                            <p><i class="fa fa-phone-alt"></i>+250 787 930 487</p>
+                            <p><i class="fa fa-envelope"></i>loveinactionorganization</br>@gmail.com</p>
                             <div class="footer-social">
                                 <a class="btn btn-custom" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-custom" href=""><i class="fab fa-facebook-f"></i></a>
@@ -178,7 +220,7 @@
                             <a href="index.php">Welcome</a>
                             <a href="about.php">About us</a>
                             <a href="donate.php">Donate</a>
-                            <a href="volunteer.php">Volunteer</a>
+                            <a href="member.php">Member</a>
                             <a href="event.php">Events</a>
                         </div>
                     </div>
@@ -229,7 +271,8 @@
         <script src="mail/jqBootstrapValidation.min.js"></script>
         <script src="mail/contact.js"></script>
 
-        <!-- Template Javascript -->
         <script src="js/main.js"></script>
+
+        
     </body>
 </html>

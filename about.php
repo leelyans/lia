@@ -31,7 +31,7 @@ if ($amount_query) {
         <meta content="Free Website Template" name="description">
 
         <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+        <link href="img/logo2.png" rel="icon">
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -66,7 +66,7 @@ if ($amount_query) {
                             </div>
                             <div class="text">
                                 <i class="fa fa-envelope"></i>
-                                <p>loveinaction@gmail.com</p>
+                                <p>loveinactionorganization@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -101,10 +101,10 @@ if ($amount_query) {
                         <a href="about.php" class="nav-item nav-link active">About</a>
                         <a href="event.php" class="nav-item nav-link">Events</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Involved</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Invloved</a>
                             <div class="dropdown-menu">
                                 <a href="donate.php" class="dropdown-item">Donate Now</a>
-                                <a href="volunteer.php" class="dropdown-item">Become A Volunteer</a>
+                                <a href="member.php" class="dropdown-item">Become A Member</a>
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
@@ -159,13 +159,13 @@ if ($amount_query) {
 
                             <div class="tab-content">
                                 <div id="tab-content-1" class="container tab-pane active">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae pellentesque turpis. Donec in hendrerit dui, vel blandit massa. Ut vestibulum suscipit cursus. Cras quis porta nulla, ut placerat risus. Aliquam nec magna eget velit luctus dictum. Phasellus et felis sed purus tristique dignissim. Morbi sit amet leo at purus accumsan pellentesque. Vivamus fermentum nisi vel dapibus blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    We are a dedicated entity that operates for the greater good and the advancement of a specific cause or social issue. We serve as instruments of positive change, mobilizing resources and efforts to make a meaningful impact on the world. We often encompasses a wide range of areas, from humanitarian aid and poverty reduction to environmental conservation and helping the needy.
                                 </div>
                                 <div id="tab-content-2" class="container tab-pane fade">
-                                    Sed tincidunt, magna ut vehicula volutpat, turpis diam condimentum justo, posuere congue turpis massa in mi. Proin ornare at massa at fermentum. Nunc aliquet sed nisi iaculis ornare. Nam semper tortor eget est egestas, eu sagittis nunc sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent bibendum sapien sed purus molestie malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Easing poverty, empowering women, providing education in local community by providing food, shelter, and educational resources to those in need. We are committed to creating a more equitable society where every person has the opportunity to lead a dignified and fulfilling life.
                                 </div>
                                 <div id="tab-content-3" class="container tab-pane fade">
-                                    Aliquam dolor odio, mollis sed feugiat sit amet, feugiat ut sapien. Nunc eu dignissim lorem. Suspendisse at hendrerit enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed condimentum semper turpis vel facilisis. Nunc vel faucibus orci. Mauris ut mauris rhoncus, efficitur nisi at, venenatis quam. Praesent egestas pretium enim sit amet finibus. Curabitur at erat molestie, tincidunt lorem eget, consequat ligula.
+                                    Our vision is a world where every child has access to quality education, poverty and hunger eradicated and communities growing in harmony with the environment.
                                 </div>
                             </div>
                         </div>
@@ -194,7 +194,7 @@ if ($amount_query) {
                             <i class="flaticon-charity"></i>
                             <div class="facts-text">
                                 <h3 class="facts-plus" data-toggle="counter-up"><?=$volunteers_no?></h3>
-                                <p>Volunteers</p>
+                                <p>Members</p>
                             </div>
                         </div>
                     </div>
@@ -340,7 +340,7 @@ if ($amount_query) {
         
         
         <!-- Testimonial Start -->
-        <div class="testimonial">
+        <!-- <div class="testimonial">
             <div class="container">
                 <div class="section-header text-center">
                     <p>Testimonial</p>
@@ -405,7 +405,7 @@ if ($amount_query) {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Testimonial End -->
 
 
@@ -417,8 +417,8 @@ if ($amount_query) {
                         <div class="footer-contact">
                             <h2>Our Head Office</h2>
                             <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
-                            <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                            <p><i class="fa fa-envelope"></i>info@example.com</p>
+                            <p><i class="fa fa-phone-alt"></i>+250 787 930 487</p>
+                            <p><i class="fa fa-envelope"></i>loveinactionorganization</br>@gmail.com</p>
                             <div class="footer-social">
                                 <a class="btn btn-custom" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-custom" href=""><i class="fab fa-facebook-f"></i></a>
@@ -434,7 +434,7 @@ if ($amount_query) {
                             <a href="index.php">Welcome</a>
                             <a href="about.php">About us</a>
                             <a href="donate.php">Donate</a>
-                            <a href="volunteer.php">Volunteer</a>
+                            <a href="member.php">Members</a>
                             <a href="event.php">Events</a>
                         </div>
                     </div>

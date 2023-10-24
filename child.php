@@ -8,7 +8,7 @@
         <meta content="Free Website Template" name="description">
 
         <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+        <link href="img/logo2.png" rel="icon">
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -37,7 +37,7 @@
                             </div>
                             <div class="text">
                                 <i class="fa fa-envelope"></i>
-                                <p>loveinaction@gmail.com</p>
+                                <p>loveinactionorganization@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -72,10 +72,10 @@
                         <a href="about.php" class="nav-item nav-link">About</a>
                         <a href="event.php" class="nav-item nav-link">Events</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Involved</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Invloved</a>
                             <div class="dropdown-menu">
                                 <a href="donate.php" class="dropdown-item">Donate Now</a>
-                                <a href="volunteer.php" class="dropdown-item">Become A Volunteer</a>
+                                <a href="member.php" class="dropdown-item">Become A Member</a>
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
@@ -117,9 +117,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Male</a></p>
@@ -135,9 +135,9 @@
 
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Male</a></p>
@@ -152,9 +152,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Female</a></p>
@@ -169,9 +169,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Male</a></p>
@@ -186,9 +186,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Female</a></p>
@@ -203,9 +203,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Male</a></p>
@@ -220,9 +220,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Female</a></p>
@@ -237,9 +237,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Female</a></p>
@@ -254,9 +254,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Male</a></p>
@@ -271,9 +271,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Male</a></p>
@@ -288,9 +288,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Female</a></p>
@@ -305,9 +305,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Female</a></p>
@@ -322,9 +322,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Female</a></p>
@@ -339,9 +339,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Male</a></p>
@@ -356,9 +356,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Female</a></p>
@@ -373,9 +373,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Female</a></p>
@@ -390,9 +390,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Male</a></p>
@@ -407,9 +407,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Male</a></p>
@@ -424,9 +424,9 @@
                             </div>
                             <div class="blog-text">
                                 <h3><a href="#">Lorem ipsum dolor sit</a></h3>
-                                <p>
+                                <!-- <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
+                                </p> -->
                             </div>
                             <div class="blog-meta">
                                 <p><a href="">Male</a></p>
@@ -450,8 +450,8 @@
                         <div class="footer-contact">
                             <h2>Our Head Office</h2>
                             <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
-                            <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                            <p><i class="fa fa-envelope"></i>info@example.com</p>
+                            <p><i class="fa fa-phone-alt"></i>+250 787 930 487</p>
+                            <p><i class="fa fa-envelope"></i>loveinactionorganization</br>@gmail.com</p>
                             <div class="footer-social">
                                 <a class="btn btn-custom" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-custom" href=""><i class="fab fa-facebook-f"></i></a>
@@ -467,7 +467,7 @@
                             <a href="index.php">Welcome</a>
                             <a href="about.php">About us</a>
                             <a href="donate.php">Donate</a>
-                            <a href="volunteer.php">Volunteer</a>
+                            <a href="member.php">Members</a>
                             <a href="event.php">Events</a>
                         </div>
                     </div>

@@ -30,7 +30,7 @@ if ($amount_query) {
         <meta content="Free Website Template" name="description">
 
         <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+        <link href="img/logo2.png" rel="icon">
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -45,6 +45,42 @@ if ($amount_query) {
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
+    <style>
+        .payment_method{
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.377);
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            margin: -3rem 0 2rem 0;
+        }
+        .payment_method img{
+            width: 1rem;
+            margin: auto 0 auto auto;
+            cursor: pointer;
+        }
+        .payment_method .complete{
+            margin: 2rem auto 0 auto;
+            font-size: 22px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #fff;
+            cursor: default;
+        }
+        .payment_method div{
+            display: flex;
+            font-size: larger;
+            color: black;
+        }
+        .payment_method div p{
+            margin: 0 0 0 1rem;
+            font-weight: bold;
+            color: white;
+        }
+        .display_none{
+            display: none;
+        }
+    </style>
 
     <body>
      <!-- Top Bar Start -->
@@ -59,7 +95,7 @@ if ($amount_query) {
                             </div>
                             <div class="text">
                                 <i class="fa fa-envelope"></i>
-                                <p>loveinaction@gmail.com</p>
+                                <p>loveinactionorganization@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -99,7 +135,7 @@ if ($amount_query) {
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Invloved</a>
                             <div class="dropdown-menu">
                                 <a href="donate.php" class="dropdown-item">Donate Now</a>
-                                <a href="volunteer.php" class="dropdown-item">Become A Volunteer</a>
+                                <a href="member.php" class="dropdown-item">Become A Member</a>
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
@@ -121,8 +157,7 @@ if ($amount_query) {
                         <div class="carousel-text">
                             <h1>LET'S BE KIND FOR CHILDREN</h1>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. <br>
-                                Vivamus egestas eleifend dui ac consequat at lectus in malesuada
+                                Showing kindness to children through a charity organization is a heartwarming and essential endeavor.</br> By offering support, care, and resources, we help create a safe and nurturing environment where children can thrive.
                             </p>
                             <div class="carousel-btn">
                                 <a class="btn btn-custom" href="donate.php">Donate Now</a>
@@ -137,8 +172,7 @@ if ($amount_query) {
                         <div class="carousel-text">
                             <h1>GET INVOLVED WITH HELPING HAND</h1>
                             <p>
-                                Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna.<br> 
-                                Morbi sagittis, orci sodales varius fermentum, tortor
+                            Becoming a member of a charity organization is a direct and impactful way to support a cause you're passionate about, <br>contributing your time and resources to make a positive difference. 
                             </p>
                             <div class="carousel-btn">
                                 <a class="btn btn-custom" href="donate.php">Donate Now</a>
@@ -153,8 +187,7 @@ if ($amount_query) {
                         <div class="carousel-text">
                             <h1>BRINGING SMILES TO MILLIONS</h1>
                             <p>
-                                Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, <br>
-                                ut rhoncus nibh ligula euismod quam. Proin pellentesque odio
+                            Bringing a smile to people's faces is a simple yet powerful act of kindness that can brighten their day and uplift their spirits. <br> Whether through a friendly gesture, a heartfelt compliment, or an act of generosity
                             </p>
                             <div class="carousel-btn">
                                 <a class="btn btn-custom" href="donate.php">Donate Now</a>
@@ -213,13 +246,13 @@ if ($amount_query) {
 
                             <div class="tab-content">
                                 <div id="tab-content-1" class="container tab-pane active">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae pellentesque turpis. Donec in hendrerit dui, vel blandit massa. Ut vestibulum suscipit cursus. Cras quis porta nulla, ut placerat risus. Aliquam nec magna eget velit luctus dictum. Phasellus et felis sed purus tristique dignissim. Morbi sit amet leo at purus accumsan pellentesque. Vivamus fermentum nisi vel dapibus blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    We are a dedicated entity that operates for the greater good and the advancement of a specific cause or social issue. We serve as instruments of positive change, mobilizing resources and efforts to make a meaningful impact on the world. We often encompasses a wide range of areas, from humanitarian aid and poverty reduction to environmental conservation and helping the needy.
                                 </div>
                                 <div id="tab-content-2" class="container tab-pane fade">
-                                    Sed tincidunt, magna ut vehicula volutpat, turpis diam condimentum justo, posuere congue turpis massa in mi. Proin ornare at massa at fermentum. Nunc aliquet sed nisi iaculis ornare. Nam semper tortor eget est egestas, eu sagittis nunc sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent bibendum sapien sed purus molestie malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Easing poverty, empowering women, providing education in local community by providing food, shelter, and educational resources to those in need. We are committed to creating a more equitable society where every person has the opportunity to lead a dignified and fulfilling life.
                                 </div>
                                 <div id="tab-content-3" class="container tab-pane fade">
-                                    Aliquam dolor odio, mollis sed feugiat sit amet, feugiat ut sapien. Nunc eu dignissim lorem. Suspendisse at hendrerit enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed condimentum semper turpis vel facilisis. Nunc vel faucibus orci. Mauris ut mauris rhoncus, efficitur nisi at, venenatis quam. Praesent egestas pretium enim sit amet finibus. Curabitur at erat molestie, tincidunt lorem eget, consequat ligula.
+                                    Our vision is a world where every child has access to quality education, poverty and hunger eradicated and communities growing in harmony with the environment.
                                 </div>
                             </div>
                         </div>
@@ -238,51 +271,52 @@ if ($amount_query) {
                     <h2>We believe that we can save more lifes with you</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="service-item">
                             <div class="service-icon">
-                                <i class="flaticon-diet"></i>
+                                <i class="flaticon-charity"></i>
                             </div>
                             <div class="service-text">
-                                <h3>Healthy Food</h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                                <h3>Advocate for need people</h3>
+                                <p>Advocating for individuals in need is a noble and essential endeavor, aiming to ensure their rights, well-being, and inclusion in society. Advocates tirelessly work to raise awareness, lobby for policy changes, and provide crucial support to marginalized and vulnerable populations, fostering a fairer and more compassionate society.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="service-item">
                             <div class="service-icon">
-                                <i class="flaticon-water"></i>
+                                <i class="flaticon-woman"></i>
                             </div>
                             <div class="service-text">
-                                <h3>Pure Water</h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                                <h3>Empowering women especially teen mothers</h3>
+                                <p>Empowering women is key to fostering gender equality and driving societal progress. When women are given the opportunity to thrive, they contribute significantly to positive change and greater overall well-being.</p>
+                                
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="flaticon-healthcare"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Health Care</h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="service-item">
                             <div class="service-icon">
                                 <i class="flaticon-education"></i>
                             </div>
                             <div class="service-text">
-                                <h3>Primary Education</h3>
-                                <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                                <h3>Provide education</h3>
+                                <p>Providing education is a vital undertaking that equips people with knowledge and skills, paving the way for personal and societal growth.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="flaticon-healthcare"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Mental Health Care</h3>
+                                <p>Mental health care is a vital component of healthcare, focusing on the well-being of the mind. It offers support, treatment, and resources to help individuals manage and recover from mental health challenges, ultimately improving their quality of life.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-6 col-md-6">
                         <div class="service-item">
                             <div class="service-icon">
                                 <i class="flaticon-home"></i>
@@ -293,7 +327,7 @@ if ($amount_query) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="service-item">
                             <div class="service-icon">
                                 <i class="flaticon-social-care"></i>
@@ -303,7 +337,7 @@ if ($amount_query) {
                                 <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -328,7 +362,7 @@ if ($amount_query) {
                             <i class="flaticon-charity"></i>
                             <div class="facts-text">
                                 <h3 class="facts-plus" data-toggle="counter-up"><?=$volunteers_no?></h3>
-                                <p>Volunteers</p>
+                                <p>Members</p>
                             </div>
                         </div>
                     </div>
@@ -369,92 +403,92 @@ if ($amount_query) {
                             <img src="img/causes1.jpg" alt="Image">
                         </div>
                         <div class="causes-progress">
-                            <div class="progress">
+                            <!-- <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                                     <span>85%</span>
                                 </div>
-                            </div>
-                            <div class="progress-text">
+                            </div> -->
+                            <!-- <div class="progress-text">
                                 <p><strong>Needs:</strong> $15 Monthly</p>
-                            </div>
+                            </div> -->
                         </div>
-                        <div class="causes-text">
+                        <!-- <div class="causes-text">
                             <h3>Lorem ipsum dolor sit</h3>
                             <p>Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa</p>
-                        </div>
-                        <div class="causes-btn">
+                        </div> -->
+                        <!-- <div class="causes-btn">
                             <a class="btn btn-custom" href="child.php">Read More</a>
                             <a class="btn btn-custom" href="donate.php">Donate Now</a>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="causes-item">
                         <div class="causes-img">
                             <img src="img/causes2.jpg" alt="Image">
                         </div>
                         <div class="causes-progress">
-                            <div class="progress">
+                            <!-- <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                                     <span>85%</span>
                                 </div>
-                            </div>
-                            <div class="progress-text">
+                            </div> -->
+                            <!-- <div class="progress-text">
                                  <p><strong>Needs:</strong> $15 Monthly</p>
-                            </div>
+                            </div> -->
                         </div>
-                        <div class="causes-text">
+                        <!-- <div class="causes-text">
                             <h3>Lorem ipsum dolor sit</h3>
                             <p>Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa</p>
-                        </div>
-                        <div class="causes-btn">
+                        </div> -->
+                        <!-- <div class="causes-btn">
                             <a class="btn btn-custom" href="child.php">Read More</a>
                             <a class="btn btn-custom" href="donate.php">Donate Now</a>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="causes-item">
                         <div class="causes-img">
                             <img src="img/causes3.jpg" alt="Image">
                         </div>
                         <div class="causes-progress">
-                            <div class="progress">
+                            <!-- <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                                     <span>85%</span>
                                 </div>
-                            </div>
-                            <div class="progress-text">
+                            </div> -->
+                            <!-- <div class="progress-text">
                                 <p><strong>Needs:</strong> $15 Monthly</p>
-                            </div>
+                            </div> -->
                         </div>
-                        <div class="causes-text">
+                        <!-- <div class="causes-text">
                             <h3>Lorem ipsum dolor sit</h3>
                             <p>Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa</p>
-                        </div>
-                        <div class="causes-btn">
+                        </div> -->
+                        <!-- <div class="causes-btn">
                             <a class="btn btn-custom" href="child.php">Read More</a>
                             <a class="btn btn-custom" href="donate.php">Donate Now</a>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="causes-item">
                         <div class="causes-img">
                             <img src="img/causes4.jpg" alt="Image">
                         </div>
                         <div class="causes-progress">
-                            <div class="progress">
+                            <!-- <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                                     <span>85%</span>
                                 </div>
-                            </div>
-                            <div class="progress-text">
+                            </div> -->
+                            <!-- <div class="progress-text">
                                 <p><strong>Needs:</strong> $15 Monthly</p>
-                            </div>
+                            </div> -->
                         </div>
-                        <div class="causes-text">
+                        <!-- <div class="causes-text">
                             <h3>Lorem ipsum dolor sit</h3>
                             <p>Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa</p>
-                        </div>
-                        <div class="causes-btn">
+                        </div> -->
+                        <!-- <div class="causes-btn">
                             <a class="btn btn-custom" href="child.php">Read More</a>
                             <a class="btn btn-custom" href="donate.php">Donate Now</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -474,14 +508,21 @@ if ($amount_query) {
                             </div>
                             <div class="donate-text">
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non. Aliquam metus tortor, auctor id gravida, viverra quis sem. Curabitur non nisl nec nisi maximus. Aenean convallis porttitor. Aliquam interdum at lacus non blandit.
+                                Donating to needy people is a powerful and compassionate act that has the potential to transform lives. These acts of generosity provide essential resources, such as food, clothing, shelter, and education, to those facing adversity.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-5">
+                        <div class="payment_method display_none">
+                            <img src="img/close.png" alt="Close btn" class="close_btn">
+                            <div>Momo Pay: <p>670199</p></div>
+                            <div>Mobile Money: <p>0785 688 867</p></div>
+                            <div>Bank Account: </div>
+                            <div class="complete" >Please Complete Donation</div>
+                        </div>
                         <div class="donate-form">
-                            <form method="POST" action="submit_donate.php">
+                            <!-- <form method="POST" action="submit_donate.php"> -->
                             <div class="control-group">
                                 <input type="text" class="form-control" name="name" placeholder="Name" required="required" />
                             </div>
@@ -503,7 +544,7 @@ if ($amount_query) {
                             <div>
                                 <button class="btn btn-custom" type="submit">Donate Now</button>
                             </div>
-                            </form>
+                            <!-- </form> -->
                         </div>
                     </div>
                 </div>
@@ -579,10 +620,10 @@ if ($amount_query) {
                                     <input type="email" class="form-control" placeholder="Email" name="email" required="required" />
                                 </div>
                                 <div class="control-group">
-                                    <textarea class="form-control" placeholder="Why you want to become a volunteer?" name="purpose" required="required"></textarea>
+                                    <textarea class="form-control" placeholder="Why you want to become a member?" name="purpose" required="required"></textarea>
                                 </div>
                                 <div>
-                                    <button class="btn btn-custom" type="submit">Become a volunteer</button>
+                                    <button class="btn btn-custom" type="submit">Become a Member</button>
                                 </div>
                             </form>
                         </div>
@@ -590,12 +631,12 @@ if ($amount_query) {
                     <div class="col-lg-7">
                         <div class="volunteer-content">
                             <div class="section-header">
-                                <p>Become A Volunteer</p>
+                                <p>Become A Member</p>
                                 <h2>Let’s make a difference in the lives of others</h2>
                             </div>
                             <div class="volunteer-text">
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non. Aliquam metus tortor, auctor id gravida, viverra quis sem. Curabitur non nisl nec nisi maximus. Aenean convallis porttitor. Aliquam interdum at lacus non blandit.
+                                Becoming a member of a charity organization is a direct and impactful way to support a cause you're passionate about, contributing your time and resources to make a positive difference.
                                 </p>
                             </div>
                         </div>
@@ -607,7 +648,7 @@ if ($amount_query) {
         
         
         <!-- Testimonial Start -->
-        <div class="testimonial">
+        <!-- <div class="testimonial">
             <div class="container">
                 <div class="section-header text-center">
                     <p>Testimonial</p>
@@ -672,7 +713,7 @@ if ($amount_query) {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Testimonial End -->
         
         
@@ -687,8 +728,8 @@ if ($amount_query) {
                         <div class="footer-contact">
                             <h2>Our Head Office</h2>
                             <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
-                            <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                            <p><i class="fa fa-envelope"></i>info@example.com</p>
+                            <p><i class="fa fa-phone-alt"></i>+250 787 930 487</p>
+                            <p><i class="fa fa-envelope"></i>loveinactionorganization</br>@gmail.com</p>
                             <div class="footer-social">
                                 <a class="btn btn-custom" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-custom" href=""><i class="fab fa-facebook-f"></i></a>
@@ -755,7 +796,19 @@ if ($amount_query) {
         <script src="mail/jqBootstrapValidation.min.js"></script>
         <script src="mail/contact.js"></script>
 
-        <!-- Template Javascript -->
         <script src="js/main.js"></script>
+
+        <script>
+            const payment_method = document.querySelector(".payment_method");
+            const close_btn = document.querySelector(".close_btn");
+
+            function pay() {
+                payment_method.classList.remove("display_none");
+            }
+
+            close_btn.addEventListener("click", () => {
+                payment_method.classList.add("display_none");
+            });
+        </script>
     </body>
 </html>

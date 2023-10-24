@@ -10,12 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $query = mysqli_query($conn, "INSERT INTO donations (name, email, amount) VALUES ('$name', '$email', '$amount')");
 
         if ($query) {
-            echo "
-            <script>
-            alert('Donation successfully submitted.');
-            document.location.href = 'donate.php';
-            </script>
-            ";
+            header("Location: donate2.php");
         } else {
             echo "
             <script>

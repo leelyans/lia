@@ -1,37 +1,14 @@
-<?php
-include("conn.php");
-
-// Initialize variables
-$volunteers_no = 0;
-$amount = 0;
-
-// Retrieve the number of volunteers
-$volunteers_query = mysqli_query($conn, "SELECT COUNT(*) AS count FROM volunteers");
-if ($volunteers_query) {
-    $volunteers_data = mysqli_fetch_assoc($volunteers_query);
-    $volunteers_no = $volunteers_data['count'];
-}
-
-// Retrieve the total donation amount
-$amount_query = mysqli_query($conn, "SELECT SUM(amount) AS total_amount FROM donations");
-if ($amount_query) {
-    $amount_data = mysqli_fetch_assoc($amount_query);
-    $amount = $amount_data['total_amount'];
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>About US | Love In Action</title>
+        <title>LIA - Free Charity Website </title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
 
         <!-- Favicon -->
-        <link href="img/logo2.png" rel="icon">
+        <link href="img/favicon.ico" rel="icon">
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -45,16 +22,10 @@ if ($amount_query) {
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
-        <style type="text/css">
-            .team h4{
-    font-size: 15px;
-}
-
-        </style>
     </head>
 
     <body>
-       <!-- Top Bar Start -->
+        <!-- Top Bar Start -->
         <div class="top-bar d-none d-md-block">
             <div class="container-fluid">
                 <div class="row">
@@ -62,11 +33,11 @@ if ($amount_query) {
                         <div class="top-bar-left">
                             <div class="text">
                                 <i class="fa fa-phone-alt"></i>
-                                <p>+250 787 930 487</p>
+                                <p>+123 456 7890</p>
                             </div>
                             <div class="text">
                                 <i class="fa fa-envelope"></i>
-                                <p>loveinactionorganization@gmail.com</p>
+                                <p>info@example.com</p>
                             </div>
                         </div>
                     </div>
@@ -102,10 +73,10 @@ if ($amount_query) {
                         <a href="event.php" class="nav-item nav-link">Events</a>
                         <a href="gallery.php" class="nav-item nav-link">Gallery</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Invloved</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Involved</a>
                             <div class="dropdown-menu">
                                 <a href="donate.php" class="dropdown-item">Donate Now</a>
-                                <a href="member.php" class="dropdown-item">Become A Member</a>
+                                <a href="volunteer.php" class="dropdown-item">Become A Volunteer</a>
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
@@ -160,13 +131,13 @@ if ($amount_query) {
 
                             <div class="tab-content">
                                 <div id="tab-content-1" class="container tab-pane active">
-                                    We are a dedicated entity that operates for the greater good and the advancement of a specific cause or social issue. We serve as instruments of positive change, mobilizing resources and efforts to make a meaningful impact on the world. We often encompasses a wide range of areas, from humanitarian aid and poverty reduction to environmental conservation and helping the needy.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae pellentesque turpis. Donec in hendrerit dui, vel blandit massa. Ut vestibulum suscipit cursus. Cras quis porta nulla, ut placerat risus. Aliquam nec magna eget velit luctus dictum. Phasellus et felis sed purus tristique dignissim. Morbi sit amet leo at purus accumsan pellentesque. Vivamus fermentum nisi vel dapibus blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 </div>
                                 <div id="tab-content-2" class="container tab-pane fade">
-                                    Easing poverty, empowering women, providing education in local community by providing food, shelter, and educational resources to those in need. We are committed to creating a more equitable society where every person has the opportunity to lead a dignified and fulfilling life.
+                                    Sed tincidunt, magna ut vehicula volutpat, turpis diam condimentum justo, posuere congue turpis massa in mi. Proin ornare at massa at fermentum. Nunc aliquet sed nisi iaculis ornare. Nam semper tortor eget est egestas, eu sagittis nunc sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent bibendum sapien sed purus molestie malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 </div>
                                 <div id="tab-content-3" class="container tab-pane fade">
-                                    Our vision is a world where every child has access to quality education, poverty and hunger eradicated and communities growing in harmony with the environment.
+                                    Aliquam dolor odio, mollis sed feugiat sit amet, feugiat ut sapien. Nunc eu dignissim lorem. Suspendisse at hendrerit enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed condimentum semper turpis vel facilisis. Nunc vel faucibus orci. Mauris ut mauris rhoncus, efficitur nisi at, venenatis quam. Praesent egestas pretium enim sit amet finibus. Curabitur at erat molestie, tincidunt lorem eget, consequat ligula.
                                 </div>
                             </div>
                         </div>
@@ -194,8 +165,8 @@ if ($amount_query) {
                         <div class="facts-item">
                             <i class="flaticon-charity"></i>
                             <div class="facts-text">
-                                <h3 class="facts-plus" data-toggle="counter-up"><?=$volunteers_no?></h3>
-                                <p>Members</p>
+                                <h3 class="facts-plus" data-toggle="counter-up">400</h3>
+                                <p>Volunteers</p>
                             </div>
                         </div>
                     </div>
@@ -212,7 +183,7 @@ if ($amount_query) {
                         <div class="facts-item">
                             <i class="flaticon-donation"></i>
                             <div class="facts-text">
-                                <h3 class="facts-dollar" data-toggle="counter-up"><?=$amount?></h3>
+                                <h3 class="facts-dollar" data-toggle="counter-up">5000</h3>
                                 <p>Raised</p>
                             </div>
                         </div>
@@ -238,11 +209,10 @@ if ($amount_query) {
                             </div>
                             <div class="team-text">
                                 <h2>BAYITO Egide</h2>
-                                <h4>Founder & Country Director</h4>
                                 <p>
-                                    <br>
-                                    bayitoegide@gmail.com<br>
-                                    +250 787 930 487<br>
+                                    Founder & Country Director<br>
+                                    Email: xxx<br>
+                                    Phone number:0787930487<br>
                                 </p>
                                
                             </div>
@@ -255,11 +225,10 @@ if ($amount_query) {
                             </div>
                             <div class="team-text">
                                 <h2>RURAMIRA Tiana</h2>
-                                <h4>Internal Relations Assistant</h4>
                                 <p>
-                                     <br>
-                                  ruramitiana710@gmail.com  <br>
-                                    +250 786 175 908 <br>
+                                    Internal Relations Assistant <br>
+                                    Email:ruramitiana710@gmail.com  <br>
+                                    Phone number:0786175908 <br>
                                 </p>
                                
                             </div>
@@ -272,11 +241,10 @@ if ($amount_query) {
                             </div>
                             <div class="team-text">
                                 <h2>SUGIRA Patrick</h2>
-                                <h4>Legal Advisor </h4>
                                 <p>
-                                    <br>
-                                   sugira.patrick2@gmail.com <br>
-                                 +250 787 637 422 <br>
+                                    Legal Advisor <br>
+                                    Email:sugira.patrick2@gmail.com <br>
+                                    Phone number:+250 787 637 422 <br>
                                 </p>
                                
                             </div>
@@ -289,11 +257,10 @@ if ($amount_query) {
                             </div>
                             <div class="team-text">
                                 <h2>Viviane NYIRAMANA</h2>
-                                <h4> Director of Finance </h4>
                                 <p>
-                                   <br>
-                                    viviane.nyiramana21a@kepler.org <br>
-                                    +250 783 953 862 <br>
+                                    Director of Finance <br>
+                                    Email:viviane.nyiramana21a@kepler.org <br>
+                                    Phone number:0783953862 <br>
                                 </p>
                                 
                             </div>
@@ -305,12 +272,11 @@ if ($amount_query) {
                                 <img src="img/comittee5.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>NTSINZI Anselme</h2>
-                                <h4> Internal Relations </h4>
+                                <h2>NTSINZI Anselme (Ahmed)</h2>
                                 <p>
-                                    <br> 
-                                   ntsinziahmed@gmail.com <br> 
-                                   +250 788 531 326 <br>
+                                     Internal Relations <br> 
+                                     Email:ntsinziahmed@gmail.com <br> 
+                                     Phone number:0788531326 <br>
                                 </p>
                                
                             </div>
@@ -323,11 +289,10 @@ if ($amount_query) {
                             </div>
                             <div class="team-text">
                                 <h2>KARAMBIZI Kelley Shima</h2>
-                                <h4>Public Relations Assistant</h4>
                                 <p>
-                                     <br> 
-                                   Kelleyshima20@gmail.com <br>
-                                   +250 783 318 156 <br>
+                                    Public Relations Assistant <br> 
+                                    Email:Kelleyshima20@gmail.com <br>
+                                    Phone number:0783318156 <br>
                                 </p>
                                
                             </div>
@@ -341,7 +306,7 @@ if ($amount_query) {
         
         
         <!-- Testimonial Start -->
-        <!-- <div class="testimonial">
+        <div class="testimonial">
             <div class="container">
                 <div class="section-header text-center">
                     <p>Testimonial</p>
@@ -406,7 +371,7 @@ if ($amount_query) {
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <!-- Testimonial End -->
 
 
@@ -418,8 +383,8 @@ if ($amount_query) {
                         <div class="footer-contact">
                             <h2>Our Head Office</h2>
                             <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
-                            <p><i class="fa fa-phone-alt"></i>+250 787 930 487</p>
-                            <p><i class="fa fa-envelope"></i>loveinactionorganization</br>@gmail.com</p>
+                            <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
+                            <p><i class="fa fa-envelope"></i>info@example.com</p>
                             <div class="footer-social">
                                 <a class="btn btn-custom" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-custom" href=""><i class="fab fa-facebook-f"></i></a>
@@ -431,12 +396,12 @@ if ($amount_query) {
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-link">
-                             <h2>Popular Links</h2>
-                            <a href="index.php">Welcome</a>
-                            <a href="about.php">About us</a>
-                            <a href="donate.php">Donate</a>
-                            <a href="member.php">Members</a>
-                            <a href="event.php">Events</a>
+                            <h2>Popular Links</h2>
+                            <a href="about.php">About Us</a>
+                            <a href="contact.php">Contact Us</a>
+                            <a href="causes.php">Popular Causes</a>
+                            <a href="event.php">Upcoming Events</a>
+                            <a href="blog.php">Latest Blog</a>
                         </div>
                     </div>
                    

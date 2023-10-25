@@ -2,13 +2,13 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Join hands with US | LIA</title>
+        <title>LIA - Free Charity Website </title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
 
         <!-- Favicon -->
-        <link href="img/logo2.png" rel="icon">
+        <link href="img/favicon.ico" rel="icon">
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -33,11 +33,11 @@
                         <div class="top-bar-left">
                             <div class="text">
                                 <i class="fa fa-phone-alt"></i>
-                                <p>+250 787 930 487</p>
+                                <p>+123 456 7890</p>
                             </div>
                             <div class="text">
                                 <i class="fa fa-envelope"></i>
-                                <p>loveinactionorganization@gmail.com</p>
+                                <p>info@example.com</p>
                             </div>
                         </div>
                     </div>
@@ -55,6 +55,7 @@
             </div>
         </div>
         <!-- Top Bar End -->
+
         <!-- Nav Bar Start -->
          <div class="navbar navbar-expand-lg bg-dark navbar-dark">
     <div class="container-fluid">
@@ -75,7 +76,7 @@
                             <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Get Involved</a>
                             <div class="dropdown-menu">
                                 <a href="donate.php" class="dropdown-item">Donate Now</a>
-                                <a href="member.php" class="dropdown-item">Become A Member</a>
+                                <a href="volunteer.php" class="dropdown-item">Become A Volunteer</a>
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
@@ -91,11 +92,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Member</h2>
+                        <h2>Volunteer</h2>
                     </div>
                     <div class="col-12">
                         <a href="index.php">Home</a>
-                        <a href="member.php">Member</a>
+                        <a href="volunteer.php">Volunteer</a>
                     </div>
                 </div>
             </div>
@@ -127,10 +128,10 @@
                                     <input type="email" class="form-control" placeholder="Email" name="email" required="required" />
                                 </div>
                                 <div class="control-group">
-                                    <textarea class="form-control" placeholder="Why you want to become a member?" name="purpose" required="required"></textarea>
+                                    <textarea class="form-control" placeholder="Why you want to become a volunteer?" name="purpose" required="required"></textarea>
                                 </div>
                                 <div>
-                                    <button class="btn btn-custom" type="submit">Become a Member</button>
+                                    <button class="btn btn-custom" type="submit">Become a Volunteer</button>
                                 </div>
                             </form>
                         </div>
@@ -138,12 +139,12 @@
                     <div class="col-lg-7">
                         <div class="volunteer-content">
                             <div class="section-header">
-                                <p>Become A Member</p>
+                                <p>Become A Volunteer</p>
                                 <h2>Let’s make a difference in the lives of others</h2>
                             </div>
                             <div class="volunteer-text">
                                 <p>
-                                    Becoming a member of a charity organization is a direct and impactful way to support a cause you're passionate about, contributing your time and resources to make a positive difference.
+                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non. Aliquam metus tortor, auctor id gravida, viverra quis sem. Curabitur non nisl nec nisi maximus. Aenean convallis porttitor. Aliquam interdum at lacus non blandit.
                                 </p>
                             </div>
                         </div>
@@ -162,8 +163,8 @@
                         <div class="footer-contact">
                             <h2>Our Head Office</h2>
                             <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
-                            <p><i class="fa fa-phone-alt"></i>+250 787 930 487</p>
-                            <p><i class="fa fa-envelope"></i>loveinactionorganization</br>@gmail.com</p>
+                            <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
+                            <p><i class="fa fa-envelope"></i>info@example.com</p>
                             <div class="footer-social">
                                 <a class="btn btn-custom" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-custom" href=""><i class="fab fa-facebook-f"></i></a>
@@ -175,12 +176,12 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-link">
-                              <h2>Popular Links</h2>
-                            <a href="index.php">Welcome</a>
-                            <a href="about.php">About us</a>
-                            <a href="donate.php">Donate</a>
-                            <a href="member.php">Member</a>
-                            <a href="event.php">Events</a>
+                            <h2>Popular Links</h2>
+                            <a href="about.php">About Us</a>
+                            <a href="contact.php">Contact Us</a>
+                            <a href="causes.php">Popular Causes</a>
+                            <a href="event.php">Upcoming Events</a>
+                            <a href="blog.php">Latest Blog</a>
                         </div>
                     </div>
                     
@@ -236,7 +237,7 @@
             const error_div = document.querySelector(".error_div")
             setTimeout(() => {
                 error_div.style.display = "none"
-            }, 10000)
+            }, 7000)
         </script>
     </body>
 </html>

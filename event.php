@@ -2,13 +2,13 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Events - Love In Action Organisation</title>
+        <title>LIA - Free Charity Website </title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
 
         <!-- Favicon -->
-        <link href="img/logo2.png" rel="icon">
+        <link href="img/favicon.ico" rel="icon">
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -33,11 +33,11 @@
                         <div class="top-bar-left">
                             <div class="text">
                                 <i class="fa fa-phone-alt"></i>
-                                <p>+250 787 930 487</p>
+                                <p>+123 456 7890</p>
                             </div>
                             <div class="text">
                                 <i class="fa fa-envelope"></i>
-                                <p>loveinactionorganization@gmail.com</p>
+                                <p>info@example.com</p>
                             </div>
                         </div>
                     </div>
@@ -73,10 +73,10 @@
                         <a href="event.php" class="nav-item nav-link active">Events</a>
                         <a href="gallery.php" class="nav-item nav-link">Gallery</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Invloved</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Involved</a>
                             <div class="dropdown-menu">
                                 <a href="donate.php" class="dropdown-item">Donate Now</a>
-                                <a href="member.php" class="dropdown-item">Become A Member</a>
+                                <a href="volunteer.php" class="dropdown-item">Become A Volunteer</a>
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
@@ -114,17 +114,17 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="event-item">
-                            <img src="img/together.jpg" alt="Image">
+                            <img src="img/event3.jpg" alt="Image">
                             <div class="event-content">
                                 <div class="event-meta">
-                                    <p><i class="fa fa-calendar-alt"></i>30-Dec-23</p>
+                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-23</p>
                                     <p><i class="far fa-clock"></i>8:00 - 10:00</p>
                                     <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
                                 </div>
                                 <div class="event-text">
-                                    <h3>Together For the Holidays</h3>
+                                    <h3>Lorem ipsum dolor sit</h3>
                                     <p>
-                                       Time for us to meet our beneficiaries and celebrate the holidays and our one year anniversary.
+                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
                                     </p>
                                     <a class="btn btn-custom" href="">Join Now</a>
                                 </div>
@@ -134,17 +134,17 @@
                     
                     <div class="col-lg-6">
                         <div class="event-item">
-                            <img src="img/invitation.jpg" alt="Image">
+                            <img src="img/event5.jpg" alt="Image">
                             <div class="event-content">
                                 <div class="event-meta">
-                                    <p><i class="fa fa-calendar-alt"></i>30-Dec-23</p>
+                                    <p><i class="fa fa-calendar-alt"></i>01-Jan-23</p>
                                     <p><i class="far fa-clock"></i>8:00 - 10:00</p>
                                     <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
                                 </div>
                                 <div class="event-text">
-                                    <h3>Together For the Holidays</h3>
+                                    <h3>Lorem ipsum dolor sit</h3>
                                     <p>
-                                        We would like for you join us in this special occasion.
+                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
                                     </p>
                                     <a class="btn btn-custom" href="">Join Now</a>
                                 </div>
@@ -171,7 +171,10 @@
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
                                 </p>
                             </div>
-                           
+                            <div class="blog-meta">
+                                <p><a href="">Admin</a></p>
+                                <p><a href="">Comments</a></p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
@@ -185,7 +188,10 @@
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
                                 </p>
                             </div>
-                           
+                            <div class="blog-meta">
+                                <p><a href="">Admin</a></p>
+                                <p><a href="">Comments</a></p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
@@ -199,7 +205,10 @@
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
                                 </p>
                             </div>
-                           
+                            <div class="blog-meta">
+                                <p><a href="">Admin</a></p>
+                                <p><a href="">Comments</a></p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
@@ -213,7 +222,10 @@
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
                                 </p>
                             </div>
-                           
+                            <div class="blog-meta">
+                                <p><a href="">Admin</a></p>
+                                <p><a href="">Comments</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -235,8 +247,8 @@
                         <div class="footer-contact">
                             <h2>Our Head Office</h2>
                             <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
-                            <p><i class="fa fa-phone-alt"></i>+250 787 930 487</p>
-                            <p><i class="fa fa-envelope"></i>loveinactionorganization</br>@gmail.com</p>
+                            <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
+                            <p><i class="fa fa-envelope"></i>info@example.com</p>
                             <div class="footer-social">
                                 <a class="btn btn-custom" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-custom" href=""><i class="fab fa-facebook-f"></i></a>
@@ -248,12 +260,12 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-link">
-                              <h2>Popular Links</h2>
-                            <a href="index.php">Welcome</a>
-                            <a href="about.php">About us</a>
-                            <a href="donate.php">Donate</a>
-                            <a href="member.php">Members</a>
-                            <a href="event.php">Events</a>
+                            <h2>Popular Links</h2>
+                            <a href="about.php">About Us</a>
+                            <a href="contact.php">Contact Us</a>
+                            <a href="causes.php">Popular Causes</a>
+                            <a href="event.php">Upcoming Events</a>
+                            <a href="blog.php">Latest Blog</a>
                         </div>
                     </div>
                     

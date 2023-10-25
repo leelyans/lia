@@ -2,13 +2,13 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Reach out to US | LIA</title>
+        <title>LIA - Free Charity Website </title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
 
         <!-- Favicon -->
-        <link href="img/logo2.png" rel="icon">
+        <link href="img/favicon.ico" rel="icon">
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
     </head>
 
     <body>
-       <!-- Top Bar Start -->
+        <!-- Top Bar Start -->
         <div class="top-bar d-none d-md-block">
             <div class="container-fluid">
                 <div class="row">
@@ -33,11 +33,11 @@
                         <div class="top-bar-left">
                             <div class="text">
                                 <i class="fa fa-phone-alt"></i>
-                                <p>+250 787 930 487</p>
+                                <p>+123 456 7890</p>
                             </div>
                             <div class="text">
                                 <i class="fa fa-envelope"></i>
-                                <p>loveinactionorganization@gmail.com</p>
+                                <p>info@example.com</p>
                             </div>
                         </div>
                     </div>
@@ -67,16 +67,16 @@
         </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav ml-auto">
+                    <div class="navbar-nav ml-auto">
                         <a href="index.php" class="nav-item nav-link">Home</a>
                         <a href="about.php" class="nav-item nav-link">About</a>
                         <a href="event.php" class="nav-item nav-link">Events</a>
                         <a href="gallery.php" class="nav-item nav-link">Gallery</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Invloved</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Involved</a>
                             <div class="dropdown-menu">
                                 <a href="donate.php" class="dropdown-item">Donate Now</a>
-                                <a href="member.php" class="dropdown-item">Become A Member</a>
+                                <a href="volunteer.php" class="dropdown-item">Become A Volunteer</a>
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link active">Contact</a>
@@ -116,26 +116,26 @@
                 </div>
                 <div class="contact-form">
                         <div id="success"></div>
-                        <form action="submit_form.php" method="post">
+                        <form name="sentMessage" id="contact_Form" novalidate="novalidate" action="submit_form.php" method="post">
 
                             <div class="control-group">
-                                <input type="text" class="form-control" name="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <input type="email" class="form-control" name="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <input type="text" class="form-control" name="subject" placeholder="Subject"/>
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <textarea class="form-control" name="message" placeholder="message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
-                                <button class="btn btn-custom" type="submit" name="sendMessageButton">Send Message</button>
+                                <button class="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
                             </div>
                         </form>
                     </div>
@@ -152,8 +152,8 @@
                         <div class="footer-contact">
                             <h2>Our Head Office</h2>
                             <p><i class="fa fa-map-marker-alt"></i>Kigali</p>
-                            <p><i class="fa fa-phone-alt"></i>+250 787 930 487</p>
-                            <p><i class="fa fa-envelope"></i>loveinactionorganization</br>@gmail.com</p>
+                            <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
+                            <p><i class="fa fa-envelope"></i>info@example.com</p>
                             <div class="footer-social">
                                 <a class="btn btn-custom" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-custom" href=""><i class="fab fa-facebook-f"></i></a>
@@ -165,12 +165,12 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-link">
-                              <h2>Popular Links</h2>
-                            <a href="index.php">Welcome</a>
-                            <a href="about.php">About us</a>
-                            <a href="donate.php">Donate</a>
-                            <a href="member.php">Members</a>
-                            <a href="event.php">Events</a>
+                            <h2>Popular Links</h2>
+                            <a href="about.php">About Us</a>
+                            <a href="contact.php">Contact Us</a>
+                            <a href="causes.php">Popular Causes</a>
+                            <a href="event.php">Upcoming Events</a>
+                            <a href="blog.php">Latest Blog</a>
                         </div>
                     </div>
                     

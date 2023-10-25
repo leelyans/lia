@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>LIA - Free Charity Website Template</title>
+        <title>LIA - Free Charity Website </title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -130,7 +130,7 @@
                                     <textarea class="form-control" placeholder="Why you want to become a volunteer?" name="purpose" required="required"></textarea>
                                 </div>
                                 <div>
-                                    <button class="btn btn-custom" type="submit">Become a volunteer</button>
+                                    <button class="btn btn-custom" type="submit">Become a Volunteer</button>
                                 </div>
                             </form>
                         </div>
@@ -236,7 +236,7 @@
             const error_div = document.querySelector(".error_div")
             setTimeout(() => {
                 error_div.style.display = "none"
-            }, 5000)
+            }, 7000)
         </script>
     </body>
 </html>

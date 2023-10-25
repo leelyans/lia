@@ -131,6 +131,7 @@ if ($amount_query) {
                         <a href="index.php" class="nav-item nav-link active">Home</a>
                         <a href="about.php" class="nav-item nav-link">About</a>
                         <a href="event.php" class="nav-item nav-link">Events</a>
+                        <a href="gallery.php" class="nav-item nav-link">Gallery</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Invloved</a>
                             <div class="dropdown-menu">
